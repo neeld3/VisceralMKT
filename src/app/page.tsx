@@ -45,7 +45,7 @@ export default function Home() {
           {/* Step 2 */}
           <section className="mb-6">
             <h2 className="text-xl font-semibold mb-2">2. Research and Explore</h2>
-            <p>Gather information about potential schools. Use our platform to access detailed listings and connect with the parent community for first-hand experiences.</p>
+            <p>Gather information about potential schools. Use our platform to access listings and connect with the parent community for first-hand experiences.</p>
           </section>
           
           {/* Step 3 */}
@@ -57,13 +57,13 @@ export default function Home() {
           {/* Step 4 */}
           <section className="mb-6">
             <h2 className="text-xl font-semibold mb-2">4. Evaluate Academic Programs</h2>
-            <p>Look into the curriculum and academic performance of schools. Consider how each school's approach to learning aligns with your child's needs.</p>
+            <p>Look into the curriculum and academic performance of schools. Consider how each school&apos;s approach to learning aligns with your child&apos;s needs.</p>
           </section>
           
           {/* Step 5 */}
           <section className="mb-6">
             <h2 className="text-xl font-semibold mb-2">5. Consider Extracurriculars</h2>
-            <p>Extracurricular activities play a crucial role in a child’s development. Evaluate what each school offers outside the classroom.</p>
+            <p>Extracurricular activities play a crucial role in a child&apos;s development. Evaluate what each school offers outside the classroom.</p>
           </section>
           
           {/* Step 6 */}
@@ -75,7 +75,7 @@ export default function Home() {
           {/* Step 7 */}
           <section className="mb-6">
             <h2 className="text-xl font-semibold mb-2">7. Make Your Decision</h2>
-            <p>Consider all factors and inputs from your visits and community insights. Choose the school that best fits your child’s needs and aspirations.</p>
+            <p>Consider all factors and inputs from your visits and community insights. Choose the school that best fits your child&apos;s needs and aspirations.</p>
           </section>
           
         </div>
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="bg-white py-16 sm:py-24">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:text-center">
-              <h1 className="font-permanent-marker text-blue-600 text-3xl font-semibold text-center leading-7 pt-12">Don't do it alone</h1>
+              <h1 className="font-permanent-marker text-blue-600 text-3xl font-semibold text-center leading-7 pt-12">Don&apos;t do it alone</h1>
               <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
                 A community and resources to guide you along the entire journey
               </p>
