@@ -1,113 +1,126 @@
-import Image from "next/image";
+// Import React and Head from Next.js for SEO and page title management
+import Head from 'next/head';
+import { UserGroupIcon, CheckBadgeIcon, BuildingStorefrontIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
+
+const features = [
+  {
+    name: 'Expert Guidance',
+    description:
+      'Connect with education consultants and seasoned parents who have navigated the school selection process. Get personalized advice to evaluate schools based on your child’s needs and aspirations.',
+    icon: CheckBadgeIcon,
+  },
+  {
+    name: 'Parent Community',
+    description:
+      'Join a community of parents embarking on the same journey. Share experiences, insights, and receive support. Our forums and discussion groups are invaluable resources for making informed decisions.',
+    icon: UserGroupIcon,
+  },
+  {
+    name: 'School Listings',
+    description:
+      'Access a comprehensive database of schools, including ratings, programs offered, and extracurricular activities. Use our tools to compare schools and make the best choice for your family.',
+    icon: BuildingStorefrontIcon,
+  },
+]
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
+    <>
+      <Head>
+        <title>Choosing the Right School</title>
+        <meta name="description" content="A guide and community support for choosing the right school for your child" />
+      </Head>
+
+      <main className="">
+        <div className="max-w-4xl mx-auto p-12">
+          <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">EduGuru</h1>
+          <h1 className="text-6xl text-blue-600 font-bold text-center mb-12 px-6">Choose the Right School</h1>
+          
+          {/* Step 1 */}
+          <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">1. Determine Your Criteria</h2>
+            <p>Start by identifying what’s important for you and your child. Consider academic programs, location, size, and extracurricular activities as part of your criteria.</p>
+          </section>
+          
+          {/* Step 2 */}
+          <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">2. Research and Explore</h2>
+            <p>Gather information about potential schools. Use our platform to access detailed listings and connect with the parent community for first-hand experiences.</p>
+          </section>
+          
+          {/* Step 3 */}
+          <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">3. Visit Schools</h2>
+            <p>Arrange visits to shortlisted schools. Observe the environment, meet the faculty, and see the facilities to get a feel for each school.</p>
+          </section>
+          
+          {/* Step 4 */}
+          <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">4. Evaluate Academic Programs</h2>
+            <p>Look into the curriculum and academic performance of schools. Consider how each school's approach to learning aligns with your child's needs.</p>
+          </section>
+          
+          {/* Step 5 */}
+          <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">5. Consider Extracurriculars</h2>
+            <p>Extracurricular activities play a crucial role in a child’s development. Evaluate what each school offers outside the classroom.</p>
+          </section>
+          
+          {/* Step 6 */}
+          <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">6. Application Process</h2>
+            <p>Understand the application and admission process for each school. Prepare your applications well in advance to meet deadlines.</p>
+          </section>
+          
+          {/* Step 7 */}
+          <section className="mb-6">
+            <h2 className="text-xl font-semibold mb-2">7. Make Your Decision</h2>
+            <p>Consider all factors and inputs from your visits and community insights. Choose the school that best fits your child’s needs and aspirations.</p>
+          </section>
+          
+        </div>
+
+        <div className="bg-white py-16 sm:py-24">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl lg:text-center">
+              <h1 className="font-permanent-marker text-blue-600 text-3xl font-semibold text-center leading-7 pt-12">Don't do it alone</h1>
+              <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
+                A community and resources to guide you along the entire journey
+              </p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                Leverage expert advice and parent experiences to navigate the school selection process with confidence.
+              </p>
+            </div>
+            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                {features.map((feature) => (
+                  <div key={feature.name} className="flex flex-col">
+                    <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                      <feature.icon className="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
+                      {feature.name}
+                    </dt>
+                    <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                      <p className="flex-auto">{feature.description}</p>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-24 flex justify-center">
+          <a href="#" className="inline-flex items-center px-12 font-permanent-marker text-5xl text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-full p-12 text-center shadow-lg transition-colors dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <CursorArrowRaysIcon className="h-16 w-16 text-white mr-5" aria-hidden="true" />
+            Join the Community
           </a>
         </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+        <a href="#" className="inline-flex items-center font-permanent-marker fixed top-4 right-4 z-50 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
+        Join the Community
+      </a>
+      </main>
+    </>
   );
-}
+};
