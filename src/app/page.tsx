@@ -31,6 +31,17 @@ export default function Home() {
 
       <main className="">
         <div className="max-w-4xl mx-auto p-12">
+          <h1 className="font-permanent-marker text-4xl text-custom-color font-bold text-center px-6 pt-12">Fully Loaded for all Markets<br /><br /></h1>
+          <div className="w-full mx-auto mt-5 mb-5">
+            
+            <Image
+              src="/initialIronman.jpg"
+              alt="Ironman"
+              width={500}
+              height={300}
+              className="mt-8 mx-auto border border-black"
+            />
+          </div>
           <div className="w-full mx-auto mt-5 mb-5">
             <Image
               src="/vmr-logo.png" 
@@ -40,15 +51,7 @@ export default function Home() {
               height={183}
               objectFit="cover"
             />
-            <Image
-              src="/initialIronman.jpg"
-              alt="Ironman"
-              width={500}
-              height={300}
-              className="mt-8 mx-auto border border-black"
-            />
           </div>
-          <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">Fully Loaded for all Markets<br /><br /></h1>
           
           {/* Step 1 */}
           <section className="mb-6">
