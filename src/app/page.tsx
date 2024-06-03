@@ -35,7 +35,7 @@ export default function Home() {
           <div className="w-full mx-auto mb-5">
             
             <Image
-              src="/ironmaninitial.jpg"
+              src="/ironman.jpg"
               alt="Ironman"
               width={500}
               height={300}
