@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="A guide and community support for choosing the right school for your child" />
       </Head>
 
-      <main className="">
+      <main className="flex flex-col">
         <div className="max-w-4xl mx-auto p-12">
           <div className="w-full mx-auto mb-5">
             <Image
@@ -83,17 +83,18 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mb-24 flex justify-center">
-          <a href="#" className="inline-flex items-center px-12 font-permanent-marker text-5xl text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full p-12 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
-            <CursorArrowRaysIcon className="h-16 w-16 text-white mr-5" aria-hidden="true" />
-            Join the Community
-          </a>
+        <div className="mb-24 flex justify-center flex-grow">
+          <div className="flex flex-col items-center">
+            <a href="#" className="inline-flex items-center font-permanent-marker text-5xl text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full p-12 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark mb-6">
+              <CursorArrowRaysIcon className="h-16 w-16 text-white mr-5" aria-hidden="true" />
+              Join the Community
+            </a>
+            <a href="#" className="inline-flex items-center font-permanent-marker text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
+              <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
+              Join the Community
+            </a>
+          </div>
         </div>
-
-        <a href="#" className="inline-flex items-center font-permanent-marker fixed top-4 right-4 z-50 text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
-            <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
-        Join the Community
-      </a>
       </main>
     </>
   );
