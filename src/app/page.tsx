@@ -48,7 +48,7 @@ export default function Home() {
               className="mt-8 mx-auto border border-black"
             />
           </div>
-          <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">Fully Loaded for all Markets</h1>
+          <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">Fully Loaded for all Markets<br /><br /></h1>
           
           {/* Step 1 */}
           <section className="mb-6">
