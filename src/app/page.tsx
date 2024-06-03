@@ -45,7 +45,7 @@ export default function Home() {
               alt="Ironman"
               width={500}
               height={300}
-              className="mt-8 mx-auto"
+              className="mt-8 mx-auto border border-black"
             />
           </div>
           <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">VMR</h1>
