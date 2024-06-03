@@ -3,19 +3,19 @@ import Image from 'next/image';
 import { UserGroupIcon, CheckBadgeIcon, BuildingStorefrontIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
 const features = [
   {
-    name: 'Expert Guidance',
+    name: 'Analyze data in natural language',
     description:
       'Connect with education consultants and seasoned parents who have navigated the school selection process. Get personalized advice to evaluate schools based on your child’s needs and aspirations.',
     icon: CheckBadgeIcon,
   },
   {
-    name: 'Parent Community',
+    name: 'Generate and export reports',
     description:
       'Join a community of parents embarking on the same journey. Share experiences, insights, and receive support. Our forums and discussion groups are invaluable resources for making informed decisions.',
     icon: UserGroupIcon,
   },
   {
-    name: 'School Listings',
+    name: 'Get recurring revenue with collaborate client tools',
     description:
       'Access a comprehensive database of schools, including ratings, programs offered, and extracurricular activities. Use our tools to compare schools and make the best choice for your family.',
     icon: BuildingStorefrontIcon,
@@ -48,8 +48,7 @@ export default function Home() {
               className="mt-8 mx-auto border border-black"
             />
           </div>
-          <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">VMR</h1>
-          <h1 className="text-6xl text-custom-color font-bold text-center mb-12 px-6">Fully Loaded for all Markets</h1>
+          <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">Fully Loaded for all Markets</h1>
           
           {/* Step 1 */}
           <section className="mb-6">
