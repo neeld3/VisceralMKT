@@ -41,8 +41,8 @@ export default function Home() {
               objectFit="cover"
             />
             <Image
-              src="/paint.jpg"
-              alt="Paint"
+              src="/initialironman.jpg"
+              alt="Ironman"
               width={500}
               height={300}
               className="mt-8 mx-auto"
