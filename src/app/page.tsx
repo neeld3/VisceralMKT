@@ -5,9 +5,7 @@ const features = [
   {
     name: 'Analyze data in natural language',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra varius orci hendrerit interdum. Maecenas vitae justo ligula. Maecenas sit amet dapibus tortor, vel accumsan magna. 
-
-',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra varius orci hendrerit interdum. Maecenas vitae justo ligula. Maecenas sit amet dapibus tortor, vel accumsan magna.',
     icon: CheckBadgeIcon,
   },
   {
