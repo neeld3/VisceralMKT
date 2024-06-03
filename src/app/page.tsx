@@ -31,7 +31,7 @@ export default function Home() {
 
       <main className="">
         <div className="max-w-4xl mx-auto p-12">
-          <h1 className="font-permanent-marker text-4xl text-custom-color font-bold text-center px-6 pt-12">Fully Loaded for all Markets<br /><br /></h1>
+          <h1 className="font-permanent-marker text-5xl text-custom-color font-bold text-center px-6 pt-12">Fully Loaded for all Markets<br /><br /></h1>
           <div className="w-full mx-auto mb-5">
             
             <Image
