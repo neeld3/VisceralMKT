@@ -56,14 +56,18 @@ export default function Home() {
           {/* Step 1 */}
           <section className="mt-6 mb-6 font-medium text-lg">
             <p className="mb-4">
-              <br /><br />Are you tired of the tedious, time-consuming nature of traditional market research methods? Say goodbye to cumbersome surveys, expensive subcontractors, and endless back-and-forth.<br /><br /></p>
+              <br /><br />Tony Stark relies on no one. The Ironman suit is a well-oiled, optimized machine always working at its best. Unlike Tony Stark or the Ironman suit, current market research methods are messy. They take too long and there's always a snag in the process. <br /><br />
+            </p>
             <p className="mb-4">
-              Introducing Visceral Marketing Research- Your All-in-One Market Research Solution. Our intuitive platform simplifies the entire process. From survey creation to data analysis, saving you time and resources.<br /><br />With Visceral Marketing Research, you can:</p>
-            <ul className="list-disc ml-6 mb-4">
-              <li>Create surveys effortlessly with our user-friendly interface.</li>
-              <li>Cut down on research time and reduce overhead costs.</li>
-              <li>Ensure data integrity with our advanced AI fraud detection system.</li>
-            </ul>
+              Does this sound familiar? Debating adding extra links in your chain of command by outsourcing. Or you could decide to do it in-house. But now you need to buy a million different licenses for every small thing that may need it. And you need the talent to be able to use those complex and outdated software in the first place. <br /><br /> 
+            </p>
+            <p className="mb-4">
+              Introducing Visceral Market Research. No more juggling multiple licenses. No more dealing with outdated software. No more outsourcing headaches. <br /><br />
+            </p>
+            <p className="mb-4">
+              The &apos;Swiss army knife&apos; of market research. With one subscription you get access to ALL the licenses and information you could ever need. Not to mention with an easy-to-use interface. Seamlessly transform your ideas into surveys with us. Equip yourself with Visceral Market Research today and streamline your market research process like never before!
+            </p>
+           
           </section>
         </div>
 
