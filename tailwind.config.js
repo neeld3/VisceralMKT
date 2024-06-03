@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'custom-color': '#FF3900',
+        'hover-color': '#E33200',
+        'click-color': '#CC2E00',
       },
     },
   },
