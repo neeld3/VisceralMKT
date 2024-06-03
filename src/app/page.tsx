@@ -9,8 +9,8 @@ export default function Home() {
             src="/vmr-logo.png" 
             alt="Logo"
             layout="responsive" 
-            width={3925}
-            height={2354}
+            width={2125}
+            height={183}
             objectFit="cover"
           />
         <title>Choosing the Right School</title>
