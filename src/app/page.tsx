@@ -35,7 +35,7 @@ export default function Home() {
           <div className="w-full mx-auto mb-5">
             
             <Image
-              src="/initialIronman.jpg"
+              src="/ironmaninitial.jpg"
               alt="Ironman"
               width={500}
               height={300}
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div className="w-full mx-auto mt-5 mb-5">
             <Image
-              src="/vmr-logo.png" 
+              src="/vmr-logo-black.png" 
               alt="Logo"
               layout="responsive" 
               width={2125}
