@@ -15,7 +15,7 @@ const features = [
     icon: UserGroupIcon,
   },
   {
-    name: 'Get recurring revenue with collaborate client tools',
+    name: 'Earn revenue with collaborate client tools',
     description:
       'In hac habitasse platea dictumst. Maecenas iaculis dolor eu metus auctor dapibus. Curabitur pretium velit vehicula turpis convallis placerat. Fusce tempor finibus mi, a pretium massa gravida quis. Mauris faucibus nisl eu gravida interdum.',
     icon: BuildingStorefrontIcon,
