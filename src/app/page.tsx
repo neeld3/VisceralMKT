@@ -65,7 +65,7 @@ export default function Home() {
               Introducing Visceral Market Research. No more juggling multiple licenses. No more dealing with outdated software. No more outsourcing headaches. <br /><br />
             </p>
             <p className="mb-4">
-              It&apos;s the &apos;Swiss army knife&apos; of market research. With one subscription you get access to ALL the licenses and information you could ever need. Not to mention with an easy-to-use interface. Seamlessly transform your ideas into surveys with us. Equip yourself with Visceral Market Research today and streamline your market research process like never before!
+              It&apos;s the &apos;Swiss army knife&apos; of market research. With one subscription you get access to ALL the licenses and information you could ever need. Cutting down costs and time substantially, not to mention with an easy-to-use interface. Seamlessly transform your ideas into surveys with us. Equip yourself with Visceral Market Research today and make a 2 WEEK process into a 2 DAY process!
             </p>
            
           </section>
