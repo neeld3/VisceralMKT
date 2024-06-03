@@ -6,6 +6,11 @@ export default function Home() {
   return (
     <>
       <Head>
+        <title>Choosing the Right School</title>
+        <meta name="description" content="A guide and community support for choosing the right school for your child" />
+      </Head>
+
+      <main className="">
         <Image
             src="/vmr-logo.png" 
             alt="Logo"
@@ -14,12 +19,6 @@ export default function Home() {
             height={183}
             objectFit="cover"
           />
-        <title>Choosing the Right School</title>
-        <meta name="description" content="A guide and community support for choosing the right school for your child" />
-      </Head>
-
-      <main className="">
-        
         <div className="max-w-4xl mx-auto p-12">
           <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">EduGuru</h1>
           <h1 className="text-6xl text-custom-color font-bold text-center mb-12 px-6">Choose the Right School</h1>
