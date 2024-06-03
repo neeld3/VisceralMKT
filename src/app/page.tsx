@@ -1,27 +1,6 @@
 // Import React and Head from Next.js for SEO and page title management
 import Head from 'next/head';
-import { UserGroupIcon, CheckBadgeIcon, BuildingStorefrontIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
 
-const features = [
-  {
-    name: 'Expert Guidance',
-    description:
-      'Connect with education consultants and seasoned parents who have navigated the school selection process. Get personalized advice to evaluate schools based on your child’s needs and aspirations.',
-    icon: CheckBadgeIcon,
-  },
-  {
-    name: 'Parent Community',
-    description:
-      'Join a community of parents embarking on the same journey. Share experiences, insights, and receive support. Our forums and discussion groups are invaluable resources for making informed decisions.',
-    icon: UserGroupIcon,
-  },
-  {
-    name: 'School Listings',
-    description:
-      'Access a comprehensive database of schools, including ratings, programs offered, and extracurricular activities. Use our tools to compare schools and make the best choice for your family.',
-    icon: BuildingStorefrontIcon,
-  },
-]
 
 export default function Home() {
   return (
@@ -90,21 +69,6 @@ export default function Home() {
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Leverage expert advice and parent experiences to navigate the school selection process with confidence.
               </p>
-            </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                {features.map((feature) => (
-                  <div key={feature.name} className="flex flex-col">
-                    <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                      <feature.icon className="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
-                      {feature.name}
-                    </dt>
-                    <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                      <p className="flex-auto">{feature.description}</p>
-                    </dd>
-                  </div>
-                ))}
-              </dl>
             </div>
           </div>
         </div>
