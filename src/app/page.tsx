@@ -1,13 +1,32 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { UserGroupIcon, CheckBadgeIcon, BuildingStorefrontIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
-
+const features = [
+  {
+    name: 'Expert Guidance',
+    description:
+      'Connect with education consultants and seasoned parents who have navigated the school selection process. Get personalized advice to evaluate schools based on your child’s needs and aspirations.',
+    icon: CheckBadgeIcon,
+  },
+  {
+    name: 'Parent Community',
+    description:
+      'Join a community of parents embarking on the same journey. Share experiences, insights, and receive support. Our forums and discussion groups are invaluable resources for making informed decisions.',
+    icon: UserGroupIcon,
+  },
+  {
+    name: 'School Listings',
+    description:
+      'Access a comprehensive database of schools, including ratings, programs offered, and extracurricular activities. Use our tools to compare schools and make the best choice for your family.',
+    icon: BuildingStorefrontIcon,
+  },
+]
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Choosing the Right School</title>
-        <meta name="description" content="A guide and community support for choosing the right school for your child" />
+        <title>Marketing Research Made Easy</title>
+        <meta name="description" content="A more streamlined way to meet your surveying needs." />
       </Head>
 
       <main className="">
@@ -21,9 +40,16 @@ export default function Home() {
               height={183}
               objectFit="cover"
             />
+            <Image
+              src="/paint.jpg"
+              alt="Paint"
+              width={500}
+              height={300}
+              className="mt-8 mx-auto"
+            />
           </div>
-          <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">EduGuru</h1>
-          <h1 className="text-6xl text-custom-color font-bold text-center mb-12 px-6">Choose the Right School</h1>
+          <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">VMR</h1>
+          <h1 className="text-6xl text-custom-color font-bold text-center mb-12 px-6">Fully Loaded for all Markets</h1>
           
           {/* Step 1 */}
           <section className="mb-6">
@@ -79,6 +105,21 @@ export default function Home() {
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Leverage expert advice and parent experiences to navigate the school selection process with confidence.
               </p>
+            </div>
+            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                {features.map((feature) => (
+                  <div key={feature.name} className="flex flex-col">
+                    <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                      <feature.icon className="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
+                      {feature.name}
+                    </dt>
+                    <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                      <p className="flex-auto">{feature.description}</p>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
             </div>
           </div>
         </div>
