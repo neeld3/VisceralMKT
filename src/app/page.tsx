@@ -54,9 +54,9 @@ export default function Home() {
           </div>
           
           {/* Step 1 */}
-          <section className="mb-6">
+          <section className="mt-6 mb-6 font-medium">
             <p className="mb-4">
-              Are you tired of the tedious, time-consuming nature of traditional market research methods? Say goodbye to cumbersome surveys, expensive subcontractors, and endless back-and-forth.<br /><br /></p>
+              <br /><br />Are you tired of the tedious, time-consuming nature of traditional market research methods? Say goodbye to cumbersome surveys, expensive subcontractors, and endless back-and-forth.<br /><br /></p>
             <p className="mb-4">
               Introducing Visceral Marketing Research- Your All-in-One Market Research Solution. Our intuitive platform simplifies the entire process. From survey creation to data analysis, saving you time and resources.<br /><br />With Visceral Marketing Research, you can:</p>
             <ul className="list-disc ml-6 mb-4">
