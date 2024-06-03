@@ -41,7 +41,7 @@ export default function Home() {
               objectFit="cover"
             />
             <Image
-              src="/initialironman.jpg"
+              src="/initialIronman.jpg"
               alt="Ironman"
               width={500}
               height={300}
