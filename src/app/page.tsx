@@ -1,24 +1,24 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { UserGroupIcon, CheckBadgeIcon, BuildingStorefrontIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
+import { DocumentTextIcon, ChartBarIcon, BanknotesIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
 const features = [
   {
     name: 'Analyze data in natural language',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra varius orci hendrerit interdum. Maecenas vitae justo ligula. Maecenas sit amet dapibus tortor, vel accumsan magna.',
-    icon: CheckBadgeIcon,
+    icon: DocumentTextIcon,
   },
   {
     name: 'Generate and export reports',
     description:
       'In hac habitasse platea dictumst. Maecenas iaculis dolor eu metus auctor dapibus. Curabitur pretium velit vehicula turpis convallis placerat. Fusce tempor finibus mi, a pretium massa gravida quis. Mauris faucibus nisl eu gravida interdum.',
-    icon: UserGroupIcon,
+    icon: ChartBarIcon,
   },
   {
     name: 'Earn revenue with collaborate client tools',
     description:
       'In hac habitasse platea dictumst. Maecenas iaculis dolor eu metus auctor dapibus. Curabitur pretium velit vehicula turpis convallis placerat. Fusce tempor finibus mi, a pretium massa gravida quis. Mauris faucibus nisl eu gravida interdum.',
-    icon: BuildingStorefrontIcon,
+    icon: BanknotesIcon,
   },
 ]
 export default function Home() {
