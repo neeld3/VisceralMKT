@@ -55,46 +55,16 @@ export default function Home() {
           
           {/* Step 1 */}
           <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">1. Determine Your Criteria</h2>
-            <p>Start by identifying what’s important for you and your child. Consider academic programs, location, size, and extracurricular activities as part of your criteria.</p>
+            <p className="mb-4">
+              Are you tired of the tedious, time-consuming nature of traditional market research methods? Say goodbye to cumbersome surveys, expensive subcontractors, and endless back-and-forth.<br /><br /></p>
+            <p className="mb-4">
+              Introducing Visceral Marketing Research- Your All-in-One Market Research Solution. Our intuitive platform simplifies the entire process. From survey creation to data analysis, saving you time and resources.<br /><br />With Visceral Marketing Research, you can:</p>
+            <ul className="list-disc ml-6 mb-4">
+              <li>Create surveys effortlessly with our user-friendly interface.</li>
+              <li>Cut down on research time and reduce overhead costs.</li>
+              <li>Ensure data integrity with our advanced AI fraud detection system.</li>
+            </ul>
           </section>
-          
-          {/* Step 2 */}
-          <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">2. Research and Explore</h2>
-            <p>Gather information about potential schools. Use our platform to access listings and connect with the parent community for first-hand experiences.</p>
-          </section>
-          
-          {/* Step 3 */}
-          <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">3. Visit Schools</h2>
-            <p>Arrange visits to shortlisted schools. Observe the environment, meet the faculty, and see the facilities to get a feel for each school.</p>
-          </section>
-          
-          {/* Step 4 */}
-          <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">4. Evaluate Academic Programs</h2>
-            <p>Look into the curriculum and academic performance of schools. Consider how each school&apos;s approach to learning aligns with your child&apos;s needs.</p>
-          </section>
-          
-          {/* Step 5 */}
-          <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">5. Consider Extracurriculars</h2>
-            <p>Extracurricular activities play a crucial role in a child&apos;s development. Evaluate what each school offers outside the classroom.</p>
-          </section>
-          
-          {/* Step 6 */}
-          <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">6. Application Process</h2>
-            <p>Understand the application and admission process for each school. Prepare your applications well in advance to meet deadlines.</p>
-          </section>
-          
-          {/* Step 7 */}
-          <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">7. Make Your Decision</h2>
-            <p>Consider all factors and inputs from your visits and community insights. Choose the school that best fits your child&apos;s needs and aspirations.</p>
-          </section>
-          
         </div>
 
         <div className="bg-white py-16 sm:py-24">
