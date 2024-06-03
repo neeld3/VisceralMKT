@@ -70,12 +70,12 @@ export default function Home() {
         <div className="bg-white py-16 sm:py-24">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:text-center">
-              <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">Don&apos;t do it alone</h1>
+              <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">Don&apos;t waste time & money</h1>
               <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
-                A community and resources to guide you along the entire journey
+                Embrace the new seamless process with us.
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Leverage expert advice and parent experiences to navigate the school selection process with confidence.
+                Leverage expert large databases and fraud detection to meet all your data needs.
               </p>
             </div>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
