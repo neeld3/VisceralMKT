@@ -42,7 +42,7 @@ export default function Home() {
               className="mt-8 mx-auto border border-black"
             />
           </div>
-          <div className="w-4/5 mx-auto mt-5 mb-5">
+          <div className="w-3/4 mx-auto mt-5 mb-5">
             <Image
               src="/vmr-logo-black.png" 
               alt="Logo"
