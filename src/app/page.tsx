@@ -10,16 +10,18 @@ export default function Home() {
         <meta name="description" content="A guide and community support for choosing the right school for your child" />
       </Head>
 
-      <main className="">
-        <Image
-            src="/vmr-logo.png" 
-            alt="Logo"
-            layout="responsive" 
-            width={2125}
-            height={183}
-            objectFit="cover"
-          />
+      <main className="flex justify-center items-center h-screen">
         <div className="max-w-4xl mx-auto p-12">
+          <div className="w-full lg:w-3/4 mx-auto mb-8">
+            <Image
+              src="/vmr-logo.png" 
+              alt="Logo"
+              layout="responsive" 
+              width={2125}
+              height={183}
+              objectFit="cover"
+            />
+          </div>
           <h1 className="font-permanent-marker text-4xl font-bold text-center px-6 pt-12">EduGuru</h1>
           <h1 className="text-6xl text-custom-color font-bold text-center mb-12 px-6">Choose the Right School</h1>
           
