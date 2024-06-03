@@ -9,3 +9,12 @@ module.exports = {
   plugins: [],
 }
 
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'custom-color': '#FF3900',
+      },
+    },
+  },
+}
