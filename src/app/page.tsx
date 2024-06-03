@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import { UserGroupIcon, CheckBadgeIcon, BuildingStorefrontIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
 
 export default function Home() {
