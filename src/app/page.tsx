@@ -1,5 +1,6 @@
 // Import React and Head from Next.js for SEO and page title management
 import Head from 'next/head';
+import { UserGroupIcon, CheckBadgeIcon, BuildingStorefrontIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
 
 
 export default function Home() {
