@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           
           {/* Step 1 */}
-          <section className="mt-6 mb-6 font-medium">
+          <section className="mt-6 mb-6 font-medium text-lg">
             <p className="mb-4">
               <br /><br />Are you tired of the tedious, time-consuming nature of traditional market research methods? Say goodbye to cumbersome surveys, expensive subcontractors, and endless back-and-forth.<br /><br /></p>
             <p className="mb-4">
