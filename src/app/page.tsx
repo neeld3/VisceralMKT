@@ -31,7 +31,7 @@ export default function Home() {
 
       <main className="">
         <div className="max-w-4xl mx-auto p-12">
-          <h1 className="font-permanent-marker text-5xl text-custom-color font-bold text-center px-6 pt-12">Fully Loaded for all Markets<br /><br /></h1>
+          <h1 className="font-permanent-marker text-5xl text-custom-color font-bold text-center px-6 pt-12">Run Surveys Like Tony Stark<br /><br /></h1>
           <div className="w-full mx-auto mb-5">
             
             <Image
@@ -74,9 +74,7 @@ export default function Home() {
               <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
                 Embrace the new seamless process with us.
               </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                Leverage expert large databases and fraud detection to meet all your data needs.
-              </p>
+             
             </div>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
@@ -99,13 +97,13 @@ export default function Home() {
         <div className="mb-24 flex justify-center">
           <a href="#" className="inline-flex items-center px-12 font-permanent-marker text-5xl text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full p-12 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
             <CursorArrowRaysIcon className="h-16 w-16 text-white mr-5" aria-hidden="true" />
-            Join the Community
+            Get Free Demo
           </a>
         </div>
 
         <a href="#" className="inline-flex items-center font-permanent-marker fixed top-4 right-4 z-50 text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
             <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
-        Join the Community
+        Get Free Demo
       </a>
       </main>
     </>
