@@ -74,9 +74,9 @@ export default function Home() {
         <div className="bg-white py-16 sm:py-24">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:text-center">
-              <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">Don&apos;t waste time & money</h1>
+              <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">And That&apos;s Not All</h1>
               <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
-                Embrace the new seamless process with us.
+                An end-to-end suite that saves you time and makes you money.
               </p>
              
             </div>
