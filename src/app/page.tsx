@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" content="A guide and community support for choosing the right school for your child" />
       </Head>
 
-      <main className="flex justify-center items-center h-screen">
+      <main className="">
         <div className="max-w-4xl mx-auto p-12">
           <div className="w-full lg:w-3/4 mx-auto mb-8">
             <Image
