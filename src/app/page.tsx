@@ -68,7 +68,7 @@ export default function Home() {
           {/* Step 1 */}
           <div className="mt-6 mb-6 font-medium text-lg">
             <p className="mb-4">
-              <br /><br />Tony Stark relies on no one, just his tools. Imagine having Tony Stark&apos;s Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. VisceralMR is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.<br /><br />
+              <br /><br />Tony Stark relies on no one, just his tools. Imagine having Tony Stark&apos;s Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. Visceral Market Research is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.<br /><br />
             </p>
             <p className="mb-4 text-xl font-bold">
               Challenges with Current Solutions
