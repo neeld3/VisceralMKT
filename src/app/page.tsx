@@ -57,7 +57,16 @@ export default function Home() {
               <br />80% Faster. 80% Cheaper. <br />Demonstrably Better.
             </p>
           </div>  
-        
+          <div className="w-full mx-auto mb-5">
+            
+            <Image
+              src="/chains.jpg"
+              alt="graphic"
+              width={500}
+              height={300}
+              className="mt-8 mx-auto border border-black"
+            />
+          </div>
           {/* Step 1 */}
           <div className="mt-6 mb-6 font-medium text-lg">
             <p className="mb-4">
