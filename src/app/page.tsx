@@ -66,9 +66,6 @@ export default function Home() {
             <p className="mb-4 font-bold">
               Challenges with Current Solutions
             </p>
-            <p className="mb-4">
-              Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research. <br /><br />
-            </p>
             <p className="mb-4 text-xl font-bold">
               Built-In Tools
               <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
@@ -79,8 +76,13 @@ export default function Home() {
                 <li><strong>Data Quality & Integration:</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.</li>
                 <li><strong>Actionable Insights:</strong> Difficulty in turning raw data into actionable insights quickly.</li>
                 <li><strong>Scalability Issues:</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.</li>
-
               </ul>
+            <p className="mb-4 font-bold">
+              Visceral AI: Your Insights Powerhouse
+            </p>
+            <p className="mb-4">
+              Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research. <br /><br />
+            </p>
             </p>
             <p className="mb-4">
               VisceralMR equips you with powerful, intuitive tools that transform tedious tasks into streamlined processes. Just as Tony Stark overcomes challenges with his Iron Man suit, you can rely on VisceralMR to deliver fast, efficient, and impactful market research.   Step into the future of market research with VisceralMR—where every challenge meets its match. Take the next step and equip your market research with the power of VisceralMR. Discover how VisceralMR can be your trusted companion in the quest for insights.
