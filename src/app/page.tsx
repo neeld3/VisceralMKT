@@ -83,9 +83,13 @@ export default function Home() {
             </p>
             <p className="mb-4 text-xl font-bold">
               Built-In Tools<br />
-              &nbsp;<strong>1. End-to-End Solution</strong>
+              &nbsp;1. End-to-End Solution
               <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li><strong>Fragmented Tools & Processes:</strong> Managing multiple tools leads to inefficiencies and high costs.</li>
+                <li>From identifying business needs to survey development and data visualization, VisceralMR seamlessly manages every step of the research process.</li>
+              </ul>
+              &nbsp;2. Collaborative Workspace
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Facilitates team collaboration on methodologies and survey development, media monitoring, industry/category updates, and report development.</li>
               </ul>
             </p>
             <p className="mb-4">
