@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
             <p>
-              80% Faster. 80% Cheaper. <br />Demonstrably Better.
+              <br />80% Faster. 80% Cheaper. <br />Demonstrably Better.
             </p>
           </div>  
         
