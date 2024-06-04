@@ -63,11 +63,8 @@ export default function Home() {
             <p className="mb-4">
               <br /><br />Tony Stark relies on no one, just his tools. Imagine having Tony Stark&apos;s Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. VisceralMR is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.<br /><br />
             </p>
-            <p className="mb-4 font-bold">
-              Challenges with Current Solutions
-            </p>
             <p className="mb-4 text-xl font-bold">
-              Built-In Tools
+              Challenges with Current Solutions
               <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
                 <li><strong>Fragmented Tools & Processes:</strong> Managing multiple tools leads to inefficiencies and high costs.</li>
                 <li><strong>Lengthy Turnaround Times:</strong> Traditional methods delay actionable insights.</li>
@@ -80,11 +77,11 @@ export default function Home() {
             <p className="mb-4 font-bold">
               Visceral AI: Your Insights Powerhouse
             </p>
-            <p className="mb-4">
+            <p className="mb-4 font-medium">
               Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research. <br /><br />
             </p>
             </p>
-            <p className="mb-4">
+            <p className="mb-4 font-medium">
               VisceralMR equips you with powerful, intuitive tools that transform tedious tasks into streamlined processes. Just as Tony Stark overcomes challenges with his Iron Man suit, you can rely on VisceralMR to deliver fast, efficient, and impactful market research.   Step into the future of market research with VisceralMR—where every challenge meets its match. Take the next step and equip your market research with the power of VisceralMR. Discover how VisceralMR can be your trusted companion in the quest for insights.
             </p>
           </section>
