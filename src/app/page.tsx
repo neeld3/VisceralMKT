@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <div className=" mx-auto p-12">
+        <div className="max-w-8xl mx-auto p-12">
           <h1 className="font-permanent-marker text-5xl text-custom-color font-bold text-center px-6 pt-12">Run Surveys Like Tony Stark<br /><br /></h1>
           <div className="w-full mx-auto mb-5">
             
