@@ -74,14 +74,15 @@ export default function Home() {
                 <li><strong>Actionable Insights:</strong> Difficulty in turning raw data into actionable insights quickly.</li>
                 <li><strong>Scalability Issues:</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.</li>
               </ul>
+            </p>
             <p className="mb-4 font-bold">
               Visceral AI: Your Insights Powerhouse
             </p>
-            <p className="mb-4 font-medium">
+            <p className="mb-4">
               Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research. <br /><br />
             </p>
-            </p>
-            <p className="mb-4 font-medium">
+            
+            <p className="mb-4">
               VisceralMR equips you with intuitive tools that transform tedious tasks. Much like Tony Stark&apos;s Iron Man suit helps him overcomes challenges, you can rely on VisceralMR for fast, efficient, and impactful market research. Step into the future with VisceralMR and make it your trusted companion in the quest for insights.
             </p>
           </div>
