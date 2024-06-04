@@ -82,7 +82,7 @@ export default function Home() {
             </p>
             </p>
             <p className="mb-4 font-medium">
-              VisceralMR equips you with powerful, intuitive tools that transform tedious tasks into streamlined processes. Just as Tony Stark overcomes challenges with his Iron Man suit, you can rely on VisceralMR to deliver fast, efficient, and impactful market research.   Step into the future of market research with VisceralMR—where every challenge meets its match. Take the next step and equip your market research with the power of VisceralMR. Discover how VisceralMR can be your trusted companion in the quest for insights.
+              VisceralMR equips you with intuitive tools that transform tedious tasks, much like Tony Stark's Iron Man suit. Just as he overcomes challenges, you can rely on VisceralMR for fast, efficient, and impactful market research. Step into the future with VisceralMR and make it your trusted companion in the quest for insights.
             </p>
           </section>
         </div>
