@@ -81,7 +81,13 @@ export default function Home() {
             <p className="mb-4">
               Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research. <br /><br />
             </p>
-            
+            <p className="mb-4 text-xl font-bold">
+              Built-In Tools<br />
+              &nbsp;<strong>1. End-to-End Solution</strong>
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li><strong>Fragmented Tools & Processes:</strong> Managing multiple tools leads to inefficiencies and high costs.</li>
+              </ul>
+            </p>
             <p className="mb-4">
               VisceralMR equips you with intuitive tools that transform tedious tasks. Much like Tony Stark&apos;s Iron Man suit helps him overcomes challenges, you can rely on VisceralMR for fast, efficient, and impactful market research. Step into the future with VisceralMR and make it your trusted companion in the quest for insights.
             </p>
