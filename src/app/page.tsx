@@ -52,22 +52,29 @@ export default function Home() {
               objectFit="cover"
             />
           </div>
-          
+          <div className="mt-2 text-2xl text-center font-bold tracking-tight sm:text-4xl">
+            <p>
+              80% Faster. 80% Cheaper. <br />Demonstrably Better.
+            </p>
+          </div>  
+        
           {/* Step 1 */}
           <section className="mt-6 mb-6 font-medium text-lg">
             <p className="mb-4">
-              <br /><br />Tony Stark relies on no one. The Ironman suit is a well-oiled, optimized machine always working at its best. Unlike Tony Stark or the Ironman suit, current market research methods are messy. They take too long and there&apos;s always a snag in the process. <br /><br />
+              <br /><br />Tony Stark relies on no one. The Iron Man suit is well-oiled machine optimized for all tasks. Unlike Tony Stark or the Iron Man suit, current market research methods are messy. They take too long and there are always snags in the process. <br /><br />
             </p>
             <p className="mb-4">
-              Does this sound familiar? Debating adding extra links in your chain of command by outsourcing. Or you could decide to do it in-house. But now you need to buy a million different licenses for every small thing that may need it. And you need the talent to be able to use those complex and outdated software in the first place. <br /><br /> 
+              Does this sound familiar? Debating adding extra links in your chain of command by outsourcing. Struggling to get ahold of a vendor for an update. Or doing the work in-house and paying for separate licenses for every tool you can afford. And then you need staff who can use those complex and outdated software tools in the first place. <br /><br /> 
             </p>
             <p className="mb-4">
               Introducing Visceral Market Research. No more juggling multiple licenses. No more dealing with outdated software. No more outsourcing headaches. <br /><br />
             </p>
             <p className="mb-4">
-              It&apos;s the &apos;Swiss army knife&apos; of market research. With one subscription you get access to ALL the licenses and information you could ever need. Cutting down costs and time substantially, not to mention with an easy-to-use interface. Seamlessly transform your ideas into surveys with us. Equip yourself with Visceral Market Research today and make a 2 WEEK process into a 2 DAY process!
+              It&apos;s the &apos;Iron Man suit&apos; of market research. You&apos;ll never be struggling to find a solution. With one subscription you get access to ALL the tools you need. Not to mention an easy-to-use interface. Seamlessly transform your ideas into surveys.  Find a panel partner.  Collect and analyze data. 
             </p>
-           
+           <p className="mb-4">
+             Equip yourself with Visceral Market Research today and make a 2 WEEK process into a 2 DAY process!
+           </p>
           </section>
         </div>
 
