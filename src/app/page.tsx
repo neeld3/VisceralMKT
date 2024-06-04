@@ -52,7 +52,7 @@ export default function Home() {
               objectFit="cover"
             />
           </div>
-          <div className="mt-2 text-2xl text-center font-bold tracking-tight sm:text-4xl">
+          <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
             <p>
               80% Faster. 80% Cheaper. <br />Demonstrably Better.
             </p>
