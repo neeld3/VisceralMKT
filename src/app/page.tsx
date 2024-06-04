@@ -62,9 +62,7 @@ export default function Home() {
             <Image
               src="/chains.jpg"
               alt="graphic"
-              width={500}
-              height={300}
-              className="mt-8 mx-auto border border-black"
+              className="mt-8 mx-auto"
             />
           </div>
           {/* Step 1 */}
