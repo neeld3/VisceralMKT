@@ -61,20 +61,20 @@ export default function Home() {
           {/* Step 1 */}
           <section className="mt-6 mb-6 font-medium text-lg">
             <p className="mb-4">
-              <br /><br />Tony Stark relies on no one. The Iron Man suit is well-oiled machine optimized for all tasks. Unlike Tony Stark or the Iron Man suit, current market research methods are messy. They take too long and there are always snags in the process. <br /><br />
+              <br /><br />Tony Stark relies on no one, just his tools. Imagine having Tony Stark&apos;s Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. VisceralMR is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.<br /><br />
             </p>
             <p className="mb-4">
-              Does this sound familiar? Debating adding extra links in your chain of command by outsourcing. Struggling to get ahold of a vendor for an update. Or doing the work in-house and paying for separate licenses for every tool you can afford. And then you need staff who can use those complex and outdated software tools in the first place. <br /><br /> 
+              
             </p>
             <p className="mb-4">
-              Introducing Visceral Market Research. No more juggling multiple licenses. No more dealing with outdated software. No more outsourcing headaches. <br /><br />
+              Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research. <br /><br />
+            </p>
+            <p className="mb-4 text-xl font-bold">
+              Built-In Tools
             </p>
             <p className="mb-4">
-              It&apos;s the &apos;Iron Man suit&apos; of market research. You&apos;ll never be struggling to find a solution. With one subscription you get access to ALL the tools you need. Not to mention an easy-to-use interface. Seamlessly transform your ideas into surveys.  Find a panel partner.  Collect and analyze data. 
+              VisceralMR equips you with powerful, intuitive tools that transform tedious tasks into streamlined processes. Just as Tony Stark overcomes challenges with his Iron Man suit, you can rely on VisceralMR to deliver fast, efficient, and impactful market research.   Step into the future of market research with VisceralMR—where every challenge meets its match. Take the next step and equip your market research with the power of VisceralMR. Discover how VisceralMR can be your trusted companion in the quest for insights.
             </p>
-           <p className="mb-4">
-             Equip yourself with Visceral Market Research today and make a 2 WEEK process into a 2 DAY process!
-           </p>
           </section>
         </div>
 
