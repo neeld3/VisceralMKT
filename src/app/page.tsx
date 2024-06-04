@@ -59,7 +59,7 @@ export default function Home() {
           </div>  
         
           {/* Step 1 */}
-          <section className="mt-6 mb-6 font-medium text-lg">
+          <div className="mt-6 mb-6 font-medium text-lg">
             <p className="mb-4">
               <br /><br />Tony Stark relies on no one, just his tools. Imagine having Tony Stark&apos;s Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. VisceralMR is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.<br /><br />
             </p>
@@ -84,7 +84,7 @@ export default function Home() {
             <p className="mb-4 font-medium">
               VisceralMR equips you with intuitive tools that transform tedious tasks, much like Tony Stark's Iron Man suit. Just as he overcomes challenges, you can rely on VisceralMR for fast, efficient, and impactful market research. Step into the future with VisceralMR and make it your trusted companion in the quest for insights.
             </p>
-          </section>
+          </div>
         </div>
 
         <div className="bg-white py-16 sm:py-24">
