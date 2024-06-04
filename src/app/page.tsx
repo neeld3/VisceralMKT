@@ -57,7 +57,7 @@ export default function Home() {
               <br />80% Faster. 80% Cheaper. <br />Demonstrably Better.
             </p>
           </div>  
-          <div className="w-full mx-auto mb-5">
+          <div className="w-3/5 mx-auto mb-5">
             
             <Image
               src="/chains.jpg"
