@@ -42,7 +42,7 @@ export default function Home() {
               className="mt-8 mx-auto border border-black"
             />
           </div>
-          <div className="w-4/5 mx-auto mt-5 mb-5">
+          <div className="w-3/5 mx-auto mt-5 mb-5">
             <Image
               src="/vmr-logo-black.png" 
               alt="Logo"
@@ -57,7 +57,7 @@ export default function Home() {
               <br />80% Faster. 80% Cheaper. <br />Demonstrably Better.
             </p>
           </div>  
-          <div className="w-3/5 mx-auto mb-5">
+          <div className="w-4/5 mx-auto mb-5">
             
             <Image
               src="/chains.jpg"
