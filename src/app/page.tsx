@@ -71,7 +71,7 @@ export default function Home() {
             </p>
             <p className="mb-4 text-xl font-bold">
               Built-In Tools
-              <ul className="list-disc font-medium list-inside ml-6 mb-4">
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
                 <li>Fragmented Tools & Processes: Managing multiple tools leads to inefficiencies and high costs.</li>
                 <li>Lengthy Turnaround Times: Traditional methods delay actionable insights.</li>
                 <li>Complex Learning Curves: Specialized software requires extensive training.</li>
