@@ -82,7 +82,9 @@ export default function Home() {
               Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research. <br /><br />
             </p>
             <p className="mb-4 text-xl font-bold">
-              Built-In Tools<br />
+              Built-In Tools
+            </p>
+            <p className="mb-4 text-lg font-bold">
               &nbsp;1. End-to-End Solution
               <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
                 <li>From identifying business needs to survey development and data visualization, VisceralMR seamlessly manages every step of the research process.</li>
@@ -90,6 +92,39 @@ export default function Home() {
               &nbsp;2. Collaborative Workspace
               <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
                 <li>Facilitates team collaboration on methodologies and survey development, media monitoring, industry/category updates, and report development.</li>
+              </ul>
+              &nbsp;3. Qualitative Research
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Utilizes AI to develop discussion guides, review and summarize all qualitative discussions (IDIs or groups), and potentially leverage AI for one-on-one conversations.</li>
+              </ul>
+              &nbsp;4. Survey Programming & Hosting
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Capable of programming complex quantitative surveys and integrates panels with real-time data quality checks. Allows respondents to chat with AI for richer verbatims.</li>
+              </ul>
+              &nbsp;5. Efficient Panel Integration
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Connect with panel sources more effectively, ensuring demographic balancing and quota management. AI monitors and updates panels in real-time.</li>
+              </ul>
+              &nbsp;6. Data Processing
+               <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Generate comprehensive data tables with standard outputs, including stat testing, and more. Quickly synthesize and analyze large quantities of verbatims to identify themes and insights. </li>
+                <li>Efficient end-user tool for running banners and cross tabs, allowing for quick and easy data manipulation and analysis. </li>
+              </ul>
+              &nbsp;7. Advanced Analytics
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Unlock deeper insights with sophisticated techniques like MaxDiff, factor analysis, correlations, conjoint analysis, and predictive modeling. Dive into the data to uncover patterns and trends that drive strategic decisions.</li>
+              </ul>
+              &nbsp;8. Data Visualization
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Transform complex data sets into clear, actionable insights with intuitive visualization tools.</li>
+              </ul>
+              &nbsp;9. Custom Reporting
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Generate customized reports that highlight key insights and trends, tailored to your specific needs.</li>
+              </ul>
+              &nbsp;10. Scalability & Flexibility
+              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                <li>Easily scale your research efforts and adapt to changing needs without compromising on quality or speed.</li>
               </ul>
             </p>
             <p className="mb-4">
