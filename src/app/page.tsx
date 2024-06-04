@@ -72,13 +72,13 @@ export default function Home() {
             <p className="mb-4 text-xl font-bold">
               Built-In Tools
               <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Fragmented Tools & Processes: Managing multiple tools leads to inefficiencies and high costs.</li>
-                <li>Lengthy Turnaround Times: Traditional methods delay actionable insights.</li>
-                <li>Complex Learning Curves: Specialized software requires extensive training.</li>
-                <li>Vendor Management: Managing vendors can be time-consuming and often involves project managers who don’t fully understand your business needs.</li>
-                <li>Data Quality & Integration: Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.</li>
-                <li>Actionable Insights: Difficulty in turning raw data into actionable insights quickly.</li>
-                <li>Scalability Issues: Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.</li>
+                <li><strong>Fragmented Tools & Processes:</strong> Managing multiple tools leads to inefficiencies and high costs.</li>
+                <li><strong>Lengthy Turnaround Times:</strong> Traditional methods delay actionable insights.</li>
+                <li><strong>Complex Learning Curves:</strong> Specialized software requires extensive training.</li>
+                <li><strong>Vendor Management:</strong> Managing vendors can be time-consuming and often involves project managers who don’t fully understand your business needs.</li>
+                <li><strong>Data Quality & Integration:</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.</li>
+                <li><strong>Actionable Insights:</strong> Difficulty in turning raw data into actionable insights quickly.</li>
+                <li><strong>Scalability Issues:</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.</li>
 
               </ul>
             </p>
