@@ -60,19 +60,16 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="mt-16 flow-root sm:mt-24">
-                  <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-                    <img
-                      src="/chains.jpg"
-                      alt="App screenshot"
-                      width={744}
-                      height={562}
-                      className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
-                    />
+                  <div className="relative bg-gray-900/5 lg:rounded-2xl">
+                    <div className="absolute inset-0 bg-cover bg-center rounded-xl" style={{ backgroundImage: 'url("/chains.jpg")' }} />
+                    <div className="-m-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+                      {/* Placeholder for any content over the background */}
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
       </main>
     </>
