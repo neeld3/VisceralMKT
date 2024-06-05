@@ -59,14 +59,16 @@ export default function Home() {
                     80% Faster. 80% Cheaper. Demonstrably Better.
                   </p>
                 </div>
-                <div className="border border-gray-900/10 rounded-xl p-2">
-                  <img
-                    src="/chains.jpg"
-                    alt="App screenshot"
-                    width={744}
-                    height={562}
-                    className="rounded-md shadow-full"
-                  />
+                <div className="flex justify-center items-center">
+                  <div className="border border-gray-900/10 rounded-xl overflow-hidden shadow-full">
+                    <img
+                      src="/chains.jpg"
+                      alt="App screenshot"
+                      width={744}
+                      height={562}
+                      className="rounded-md"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
