@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { DocumentTextIcon, ChartBarIcon, BanknotesIcon, CursorArrowRaysIcon ,CloudArrowUpIcon, LockClosedIcon, ServerIcon} from '@heroicons/react/20/solid';
+import { DocumentTextIcon, ChartBarIcon, BanknotesIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
+
 const features = [
   {
     name: 'Analyze data in natural language',
@@ -20,7 +21,8 @@ const features = [
       'Facilitate seamless team collaboration on survey development, media monitoring, and report generation. Leverage advanced analytics and data visualization tools to provide valuable insights that drive revenue growth for your clients.',
     icon: BanknotesIcon,
   },
-]
+];
+
 export default function Home() {
   return (
     <>
@@ -31,9 +33,10 @@ export default function Home() {
 
       <main className="">
         <div className="max-w-5xl mx-auto p-12">
-          <h1 className="font-permanent-marker text-5xl text-custom-color font-bold text-center px-6 pt-12">Run Surveys Like Tony Stark<br /><br /></h1>
+          <h1 className="font-permanent-marker text-5xl text-custom-color font-bold text-center px-6 pt-12">
+            Run Surveys Like Tony Stark<br /><br />
+          </h1>
           <div className="w-full mx-auto mb-5">
-            
             <Image
               src="/ironman.jpg"
               alt="Ironman"
@@ -44,9 +47,9 @@ export default function Home() {
           </div>
           <div className="w-2/5 mx-auto mt-5 mb-5">
             <Image
-              src="/vmr-logo-black.png" 
+              src="/vmr-logo-black.png"
               alt="Logo"
-              layout="responsive" 
+              layout="responsive"
               width={2125}
               height={183}
               objectFit="cover"
@@ -54,9 +57,9 @@ export default function Home() {
           </div>
           <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
             <p>
-              <br />80% Faster. 80% Cheaper. <br />Demonstrably Better.
+              80% Faster. 80% Cheaper. Demonstrably Better.
             </p>
-          </div>  
+          </div>
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="absolute inset-0 -z-10 overflow-hidden">
               <svg
@@ -99,10 +102,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                <img
+                <Image
                   className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
                   src="/chains.jpg"
                   alt="graphic"
+                  width={912}
+                  height={684}
                 />
               </div>
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -181,45 +186,53 @@ export default function Home() {
             </div>
           </div>
 
-        <div className="bg-white py-16 sm:py-24">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl lg:text-center">
-              <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">And That&apos;s Not All</h1>
-              <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
-                An end-to-end suite that saves you time and makes you money.
-              </p>
-             
-            </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                {features.map((feature) => (
-                  <div key={feature.name} className="flex flex-col">
-                    <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                      <feature.icon className="h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
-                      {feature.name}
-                    </dt>
-                    <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                      <p className="flex-auto">{feature.description}</p>
-                    </dd>
-                  </div>
-                ))}
-              </dl>
+          <div className="bg-white py-16 sm:py-24">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto max-w-2xl lg:text-center">
+                <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">
+                  And That's Not All
+                </h1>
+                <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
+                  An end-to-end suite that saves you time and makes you money.
+                </p>
+              </div>
+              <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+                <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                  {features.map((feature) => (
+                    <div key={feature.name} className="flex flex-col">
+                      <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                        <feature.icon className="h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                        {feature.name}
+                      </dt>
+                      <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                        <p className="flex-auto">{feature.description}</p>
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="mb-24 flex justify-center">
-          <a href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06" className="inline-flex items-center px-12 font-permanent-marker text-5xl text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full p-12 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
-            <CursorArrowRaysIcon className="h-16 w-16 text-white mr-5" aria-hidden="true" />
+          <div className="mb-24 flex justify-center">
+            <a
+              href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06"
+              className="inline-flex items-center px-12 font-permanent-marker text-5xl text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full p-12 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark"
+            >
+              <CursorArrowRaysIcon className="h-16 w-16 text-white mr-5" aria-hidden="true" />
+              Get Free Demo
+            </a>
+          </div>
+
+          <a
+            href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06"
+            className="inline-flex items-center font-permanent-marker fixed top-4 right-4 z-50 text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark"
+          >
+            <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
             Get Free Demo
           </a>
         </div>
-
-        <a href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06" className="inline-flex items-center font-permanent-marker fixed top-4 right-4 z-50 text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
-            <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
-        Get Free Demo
-      </a>
       </main>
     </>
   );
-};
+}
