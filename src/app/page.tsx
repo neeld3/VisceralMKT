@@ -38,7 +38,7 @@ export default function Home() {
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 mb-20 text-lg leading-8 text-gray-600">
               &mdash; Kareem Lakani, Harvard Business School.
             </p>
           </div>
