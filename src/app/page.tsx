@@ -91,12 +91,12 @@ export default function Home() {
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
                   <div className="lg:max-w-lg">
-                    <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
+                    <p className="text-base font-semibold leading-7 text-custom-color">Visceral AI: Your Insights Powerhouse</p>
                     <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                      Tony Stark's Iron Man Suit for Market Research
+                      Tony Stark&apos;s Iron Man Suit for Market Research
                     </h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                      Imagine having Tony Stark's Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. Visceral Market Research is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.
+                      Imagine having Tony Stark&apos;s Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. Visceral Market Research is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.
                     </p>
                   </div>
                 </div>
@@ -120,14 +120,11 @@ export default function Home() {
                       <li><strong className="font-semibold text-gray-900">Fragmented Tools & Processes:</strong> Managing multiple tools leads to inefficiencies and high costs.</li>
                       <li><strong className="font-semibold text-gray-900">Lengthy Turnaround Times:</strong> Traditional methods delay actionable insights.</li>
                       <li><strong className="font-semibold text-gray-900">Complex Learning Curves:</strong> Specialized software requires extensive training.</li>
-                      <li><strong className="font-semibold text-gray-900">Vendor Management:</strong> Managing vendors can be time-consuming and often involves project managers who don’t fully understand your business needs.</li>
+                      <li><strong className="font-semibold text-gray-900">Vendor Management:</strong> Managing vendors can be time-consuming and often involves project managers who don&apos;t fully understand your business needs.</li>
                       <li><strong className="font-semibold text-gray-900">Data Quality & Integration:</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.</li>
                       <li><strong className="font-semibold text-gray-900">Actionable Insights:</strong> Difficulty in turning raw data into actionable insights quickly.</li>
                       <li><strong className="font-semibold text-gray-900">Scalability Issues:</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.</li>
                     </ul>
-                    <p className="mb-4">
-                      <strong className="font-bold text-xl">Visceral AI: Your Insights Powerhouse</strong>
-                    </p>
                     <p className="mb-4">
                       Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research.
                     </p>
@@ -178,7 +175,7 @@ export default function Home() {
                       </ul>
                     </p>
                     <p className="mb-4">
-                      It's the 'Iron Man suit' of market research. With one subscription you get access to ALL the tools you need. With an easy-to-use interface, you can rely on VisceralMR for fast, efficient, and impactful market research. Step into the future of market research with VisceralMR—where every challenge meets its match.
+                      It&apos;s the &apos;Iron Man suit&apos; of market research. With one subscription you get access to ALL the tools you need. With an easy-to-use interface, you can rely on VisceralMR for fast, efficient, and impactful market research. Step into the future of market research with VisceralMR—where every challenge meets its match.
                     </p>
                   </div>
                 </div>
@@ -190,7 +187,7 @@ export default function Home() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl lg:text-center">
                 <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">
-                  And That's Not All
+                  And That&apos;s Not All
                 </h1>
                 <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
                   An end-to-end suite that saves you time and makes you money.
