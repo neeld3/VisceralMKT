@@ -62,8 +62,8 @@ export default function Home() {
               <img
                 src="/chains.jpg"
                 alt="Graphic"
-                width={744}
-                height={562}
+                width={727}
+                height={543}
                 className="rounded-md shadow-full ring-1 ring-gray-900/10"
               />
             </div>
