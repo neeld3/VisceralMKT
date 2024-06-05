@@ -82,43 +82,43 @@ export default function Home() {
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Current Issues:</h2>
               <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red-500" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-20 w-20 flex-none text-red-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Fragmented Tools & Process.</strong> Managing multiple tools leads to inefficiencies and high costs.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red-500" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-20 w-20 flex-none text-red-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Lengthy Turnaround Times.</strong> Traditional methods delay actionable insights.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red-500" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-20 w-20 flex-none text-red-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Complex Learning Curves.</strong> Specialized software requires extensive training.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red-500" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-20 w-20 flex-none text-red-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Time Consuming Vendor Management.</strong> Managing vendors can be time-consuming and often involves project managers who don’t fully understand your business needs.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red-500" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-20 w-20 flex-none text-red-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Cumbersome Data Quality & Integration.</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red-500" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-20 w-20 flex-none text-red-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Slow Actionable Insights.</strong> Difficulty in turning raw data into actionable insights quickly. 
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red-500" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-20 w-20 flex-none text-red-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Scalability Issues.</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.
                   </span>
@@ -132,68 +132,68 @@ export default function Home() {
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Visceral Market Research&apos;s Built-In Tools:</h2>
               <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">End-To-End Solution.</strong> From identifying business needs 
                     to survey development and data visualization, VisceralMR seamlessly manages every step of the research process.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Collaborative Workspace. </strong> Facilitates team collaboration 
                     on methodologies and survey development, media monitoring, industry/category updates, and report development.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Qualitative Research. </strong> Utilizes AI to develop discussion guides, 
                     review and summarize all qualitative discussions (IDIs or groups).
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Survey Programming & Hosting. </strong> Capable of programming complex quantitative 
                     surveys and integrates panels with real-time data quality checks.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Efficient Panel Integration. </strong> Connect with panel sources more effectively, 
                     ensuring demographic balancing and quota management. AI monitors and updates panels in real time.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Data Processing. </strong> Generate comprehensive data tables with standard outputs, 
                     including stat testing, and more. Quickly synthesize and analyze large quantities of verbatims to identify themes and insights.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Advanced Analytics. </strong> Unlock deeper insights with sophisticated techniques like MaxDiff, 
                     factor analysis, correlations, conjoint analysis, and predictive modeling.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Data Visualization. </strong> Transform complex data sets into clear, actionable insights with intuitive visualization tools.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Custom Reporting. </strong> Generate customized reports that highlight key insights and trends, tailored to your specific needs.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green-500" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-20 w-20 flex-none text-green-500" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Scalability & Flexibility. </strong> Easily scale your research efforts and adapt to changing needs without compromising on quality or speed.
                   </span>
