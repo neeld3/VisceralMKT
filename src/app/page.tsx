@@ -39,7 +39,7 @@ export default function Home() {
               &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
             </h1>
             <p className="mt-6 mb-20 text-lg leading-8 text-gray-600">
-              &mdash; Kareem Lakani, Harvard Business School.
+              &mdash; Karim Lakhani, Harvard Business School.
             </p>
           </div>
           <div className="w-2/5 mx-auto mt-5 mb-5">
@@ -88,86 +88,86 @@ export default function Home() {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Lengthy Turnaround Times.</strong> Traditional methods delay actionable insights.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Complex Learning Curves.</strong> Specialized software requires extensive training.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Time Consuming Vendor Management.</strong> Managing vendors can be time-consuming and often involves project managers who don’t fully understand your business needs.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Cumbersome Data Quality & Integration.</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Slow Actionable Insights.</strong> Difficulty in turning raw data into actionable insights quickly. 
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <XCircleIcon className="mt-1 h-5 w-5 flex-none text-red" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Scalability Issues.</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.
                   </span>
                 </li>
               </ul>
-              <p className="mt-8">
+              <p className="mt-6 text-xl leading-8">
                 Visceral AI is your intelligent partner, transforming the way you conduct market research.
               </p>
               
               
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Visceral Market Researc&apos;s Built-In Tools:</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Visceral Market Research&apos;s Built-In Tools:</h2>
               <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">End-To-End Solution.</strong> From identifying business needs 
                     to survey development and data visualization, VisceralMR seamlessly manages every step of the research process.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Collaborative Workspace. </strong> Facilitates team collaboration 
                     on methodologies and survey development, media monitoring, industry/category updates, and report development.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Qualitative Research. </strong> Utilizes AI to develop discussion guides, 
                     review and summarize all qualitative discussions (IDIs or groups).
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Survey Programming & Hosting. </strong> Capable of programming complex quantitative 
                     surveys and integrates panels with real-time data quality checks.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Quantitative Research. </strong> Analyzes survey results in real-time, 
                     applies advanced statistical techniques, and delivers visual insights.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-green" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Automated Reporting & Dashboards. </strong> Auto-generates custom, actionable reports 
                     for immediate use and supports business decisions.
@@ -202,6 +202,24 @@ export default function Home() {
               </dl>
             </div>
           </div>
+        </div>
+        <div className="mb-24 flex justify-center">
+            <a
+              href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06"
+              className="inline-flex items-center px-12 font-permanent-marker text-5xl text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full p-12 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark"
+            >
+              <CursorArrowRaysIcon className="h-16 w-16 text-white mr-5" aria-hidden="true" />
+              Get Free Demo
+            </a>
+          </div>
+
+          <a
+            href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06"
+            className="inline-flex items-center font-permanent-marker fixed top-4 right-4 z-50 text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark"
+          >
+            <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
+            Get Free Demo
+          </a>
         </div>
       </main>
     </>
