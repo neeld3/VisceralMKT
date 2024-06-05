@@ -32,19 +32,12 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <div className="max-w-5xl mx-auto p-12">
-          <h1 className="font-permanent-marker text-5xl text-custom-color font-bold text-center px-6 pt-12">
-            Run Surveys Like Tony Stark<br /><br />
+        <div>
+          <h1 className="font-permanent-marker text-5xl text-custom-color text-center px-6 pt-12">
+            AI isn't going to put you out of business. Someone using AI will." &mdash; Kareem Lakani, Harvard Business School.<br /><br />
           </h1>
-          <div className="w-full mx-auto mb-5">
-            <Image
-              src="/ironman.jpg"
-              alt="Ironman"
-              width={500}
-              height={300}
-              className="mt-8 mx-auto border border-black"
-            />
-          </div>
+        </div>
+        <div className="max-w-5xl mx-auto p-12">
           <div className="w-2/5 mx-auto mt-5 mb-5">
             <Image
               src="/vmr-logo-black.png"
