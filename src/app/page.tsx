@@ -56,6 +56,21 @@ export default function Home() {
                     &mdash; Kareem Lakani, Harvard Business School.
                   </p>
                 </div>
+                <div className="w-2/5 mx-auto mt-5 mb-5">
+                  <Image
+                    src="/vmr-logo-black.png"
+                    alt="Logo"
+                    layout="responsive"
+                    width={2125}
+                    height={183}
+                    objectFit="cover"
+                  />
+                </div>
+                <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
+                  <p>
+                    80% Faster. 80% Cheaper. Demonstrably Better.
+                  </p>
+                </div>
                 <div className="mt-16 flow-root sm:mt-24">
                   <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                     <img
