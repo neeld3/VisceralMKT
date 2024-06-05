@@ -210,6 +210,7 @@ export default function Home() {
               <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
                 An end-to-end suite that saves you time and makes you money.
               </p>
+             
             </div>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
               <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
@@ -228,6 +229,19 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="mb-24 flex justify-center">
+          <a href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06" className="inline-flex items-center px-12 font-permanent-marker text-5xl text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full p-12 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
+            <CursorArrowRaysIcon className="h-16 w-16 text-white mr-5" aria-hidden="true" />
+            Get Free Demo
+          </a>
+        </div>
+
+        <a href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06" className="inline-flex items-center font-permanent-marker fixed top-4 right-4 z-50 text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
+            <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
+        Get Free Demo
+      </a>
+        
       </main>
     </>
   );
