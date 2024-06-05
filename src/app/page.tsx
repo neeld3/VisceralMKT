@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { DocumentTextIcon, ChartBarIcon, BanknotesIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
 import { useState } from 'react'
-import { Dialog, DialogPanel } from '@headlessui/react'
 
 const features = [
   {
@@ -37,21 +36,17 @@ export default function Example() {
       <main className="">
         <div className="bg-white">
           <header className="absolute inset-x-0 top-0 z-50">
-            <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-              <div className="fixed inset-0 z-50" />
-                <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                  <div className="flex items-center justify-between">
-                    <a href="#" className="-m-1.5 p-1.5">
-                      <span className="sr-only">Your Company</span>
-                      <img
-                        className="h-8 w-auto"
-                        src="/vmr-logo-black.png"
-                        alt=""
-                      />
-                    </a>
-                  </DialogPanel>
-                </div>
-            </Dialog>
+            <div className="fixed inset-0 z-50" />
+              <div className="flex items-center justify-between">
+                <a href="#" className="-m-1.5 p-1.5">
+                  <span className="sr-only">Your Company</span>
+                  <img
+                    className="h-8 w-auto"
+                    src="/vmr-logo-black.png"
+                    alt=""
+                  />
+                </a>
+              </div>
           </header>
           <div className="relative isolate pt-14">
             <div
