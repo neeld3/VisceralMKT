@@ -34,7 +34,7 @@ export default function Home() {
       <main className="">
         <div>
           <h1 className="font-permanent-marker text-5xl text-custom-color text-center px-6 pt-12">
-            AI isn't going to put you out of business. Someone using AI will." &mdash; Kareem Lakani, Harvard Business School.<br /><br />
+            &lsquo;AI isn't going to put you out of business. Someone using AI will.&lsquo; &mdash; Kareem Lakani, Harvard Business School.<br /><br />
           </h1>
         </div>
         <div className="max-w-5xl mx-auto p-12">
