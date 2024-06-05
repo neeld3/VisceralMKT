@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { DocumentTextIcon, ChartBarIcon, BanknotesIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
-import { useState } from 'react'
 
 const features = [
   {
@@ -24,8 +23,7 @@ const features = [
   },
 ];
 
-export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+export default function Home() {
   return (
     <>
       <Head>
