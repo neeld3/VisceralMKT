@@ -61,7 +61,7 @@ export default function Home() {
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="absolute inset-0 -z-10 overflow-hidden">
               <svg
-                className="absolute left-[max(80%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+                className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
                 aria-hidden="true"
               >
                 <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
@@ -88,13 +88,14 @@ export default function Home() {
                 </div>
               </div>
               <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                <Image
-                  className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-                  src="/chains.jpg"
-                  alt="graphic"
-                  width={912}
-                  height={684}
-                />
+                <div className="w-full h-full">
+                  <Image
+                    className="w-full h-full object-cover rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10"
+                    src="/chains.jpg"
+                    alt="graphic"
+                    layout="fill"
+                  />
+                </div>
               </div>
               <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                 <div className="lg:pr-4">
