@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { DocumentTextIcon, ChartBarIcon, BanknotesIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
+import { DocumentTextIcon, ChartBarIcon, BanknotesIcon, CursorArrowRaysIcon ,CloudArrowUpIcon, LockClosedIcon, ServerIcon} from '@heroicons/react/20/solid';
 const features = [
   {
     name: 'Analyze data in natural language',
@@ -57,88 +57,129 @@ export default function Home() {
               <br />80% Faster. 80% Cheaper. <br />Demonstrably Better.
             </p>
           </div>  
-          <div className="w-4/5 mx-auto mb-5">
-            
-            <Image
-              src="/chains.jpg"
-              alt="graphic"
-              className="mt-8 mx-auto"
-            />
+          <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+            <div className="absolute inset-0 -z-10 overflow-hidden">
+              <svg
+                className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+                aria-hidden="true"
+              >
+                <defs>
+                  <pattern
+                    id="e813992c-7d03-4cc4-a2bd-151760b470a0"
+                    width={200}
+                    height={200}
+                    x="50%"
+                    y={-1}
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <path d="M100 200V.5M.5 .5H200" fill="none" />
+                  </pattern>
+                </defs>
+                <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
+                  <path
+                    d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
+                    strokeWidth={0}
+                  />
+                </svg>
+                <rect width="100%" height="100%" strokeWidth={0} fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
+              </svg>
+            </div>
+            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+              <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                <div className="lg:pr-4">
+                  <div className="lg:max-w-lg">
+                    <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
+                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                      Tony Stark's Iron Man Suit for Market Research
+                    </h1>
+                    <p className="mt-6 text-xl leading-8 text-gray-700">
+                      Imagine having Tony Stark's Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. Visceral Market Research is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                <img
+                  className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                  src="/chains.jpg"
+                  alt="graphic"
+                />
+              </div>
+              <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                <div className="lg:pr-4">
+                  <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+                    <p className="mb-4">
+                      <strong className="text-xl font-bold">Challenges with Current Solutions</strong>
+                    </p>
+                    <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                      <li><strong className="font-semibold text-gray-900">Fragmented Tools & Processes:</strong> Managing multiple tools leads to inefficiencies and high costs.</li>
+                      <li><strong className="font-semibold text-gray-900">Lengthy Turnaround Times:</strong> Traditional methods delay actionable insights.</li>
+                      <li><strong className="font-semibold text-gray-900">Complex Learning Curves:</strong> Specialized software requires extensive training.</li>
+                      <li><strong className="font-semibold text-gray-900">Vendor Management:</strong> Managing vendors can be time-consuming and often involves project managers who don’t fully understand your business needs.</li>
+                      <li><strong className="font-semibold text-gray-900">Data Quality & Integration:</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.</li>
+                      <li><strong className="font-semibold text-gray-900">Actionable Insights:</strong> Difficulty in turning raw data into actionable insights quickly.</li>
+                      <li><strong className="font-semibold text-gray-900">Scalability Issues:</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.</li>
+                    </ul>
+                    <p className="mb-4">
+                      <strong className="font-bold text-xl">Visceral AI: Your Insights Powerhouse</strong>
+                    </p>
+                    <p className="mb-4">
+                      Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research.
+                    </p>
+                    <p className="mb-4 text-xl font-bold">
+                      Built-In Tools
+                    </p>
+                    <p className="mb-4 text-lg font-bold">
+                      &nbsp;1. End-to-End Solution
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>From identifying business needs to survey development and data visualization, VisceralMR seamlessly manages every step of the research process.</li>
+                      </ul>
+                      &nbsp;2. Collaborative Workspace
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Facilitates team collaboration on methodologies and survey development, media monitoring, industry/category updates, and report development.</li>
+                      </ul>
+                      &nbsp;3. Qualitative Research
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Utilizes AI to develop discussion guides, review and summarize all qualitative discussions (IDIs or groups), and potentially leverage AI for one-on-one conversations.</li>
+                      </ul>
+                      &nbsp;4. Survey Programming & Hosting
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Capable of programming complex quantitative surveys and integrates panels with real-time data quality checks. Allows respondents to chat with AI for richer verbatims.</li>
+                      </ul>
+                      &nbsp;5. Efficient Panel Integration
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Connect with panel sources more effectively, ensuring demographic balancing and quota management. AI monitors and updates panels in real-time.</li>
+                      </ul>
+                      &nbsp;6. Data Processing
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Generate comprehensive data tables with standard outputs, including stat testing, and more. Quickly synthesize and analyze large quantities of verbatims to identify themes and insights.</li>
+                        <li>Efficient end-user tool for running banners and cross tabs, allowing for quick and easy data manipulation and analysis.</li>
+                      </ul>
+                      &nbsp;7. Advanced Analytics
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Unlock deeper insights with sophisticated techniques like MaxDiff, factor analysis, correlations, conjoint analysis, and predictive modeling. Dive into the data to uncover patterns and trends that drive strategic decisions.</li>
+                      </ul>
+                      &nbsp;8. Data Visualization
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Transform complex data sets into clear, actionable insights with intuitive visualization tools.</li>
+                      </ul>
+                      &nbsp;9. Custom Reporting
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Generate customized reports that highlight key insights and trends, tailored to your specific needs.</li>
+                      </ul>
+                      &nbsp;10. Scalability & Flexibility
+                      <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
+                        <li>Easily scale your research efforts and adapt to changing needs without compromising on quality or speed.</li>
+                      </ul>
+                    </p>
+                    <p className="mb-4">
+                      It's the 'Iron Man suit' of market research. With one subscription you get access to ALL the tools you need. With an easy-to-use interface, you can rely on VisceralMR for fast, efficient, and impactful market research. Step into the future of market research with VisceralMR—where every challenge meets its match.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          {/* Step 1 */}
-          <div className="mt-6 mb-6 font-medium text-lg">
-            <p className="mb-4">
-              <br /><br />Tony Stark relies on no one, just his tools. Imagine having Tony Stark&apos;s Iron Man suit, powered by the AI genius of Jarvis, tailored specifically for market research. Visceral Market Research is that suit—a comprehensive, AI-driven platform that revolutionizes how you conduct research.<br /><br />
-            </p>
-            <p className="mb-4 text-xl font-bold">
-              Challenges with Current Solutions
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li><strong>Fragmented Tools & Processes:</strong> Managing multiple tools leads to inefficiencies and high costs.</li>
-                <li><strong>Lengthy Turnaround Times:</strong> Traditional methods delay actionable insights.</li>
-                <li><strong>Complex Learning Curves:</strong> Specialized software requires extensive training.</li>
-                <li><strong>Vendor Management:</strong> Managing vendors can be time-consuming and often involves project managers who don’t fully understand your business needs.</li>
-                <li><strong>Data Quality & Integration:</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.</li>
-                <li><strong>Actionable Insights:</strong> Difficulty in turning raw data into actionable insights quickly.</li>
-                <li><strong>Scalability Issues:</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.</li>
-              </ul>
-            </p>
-            <p className="mb-4 font-bold">
-              Visceral AI: Your Insights Powerhouse
-            </p>
-            <p className="mb-4">
-              Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research. <br /><br />
-            </p>
-            <p className="mb-4 text-xl font-bold">
-              Built-In Tools
-            </p>
-            <p className="mb-4 text-lg font-bold">
-              &nbsp;1. End-to-End Solution
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>From identifying business needs to survey development and data visualization, VisceralMR seamlessly manages every step of the research process.</li>
-              </ul>
-              &nbsp;2. Collaborative Workspace
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Facilitates team collaboration on methodologies and survey development, media monitoring, industry/category updates, and report development.</li>
-              </ul>
-              &nbsp;3. Qualitative Research
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Utilizes AI to develop discussion guides, review and summarize all qualitative discussions (IDIs or groups), and potentially leverage AI for one-on-one conversations.</li>
-              </ul>
-              &nbsp;4. Survey Programming & Hosting
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Capable of programming complex quantitative surveys and integrates panels with real-time data quality checks. Allows respondents to chat with AI for richer verbatims.</li>
-              </ul>
-              &nbsp;5. Efficient Panel Integration
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Connect with panel sources more effectively, ensuring demographic balancing and quota management. AI monitors and updates panels in real-time.</li>
-              </ul>
-              &nbsp;6. Data Processing
-               <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Generate comprehensive data tables with standard outputs, including stat testing, and more. Quickly synthesize and analyze large quantities of verbatims to identify themes and insights. </li>
-                <li>Efficient end-user tool for running banners and cross tabs, allowing for quick and easy data manipulation and analysis. </li>
-              </ul>
-              &nbsp;7. Advanced Analytics
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Unlock deeper insights with sophisticated techniques like MaxDiff, factor analysis, correlations, conjoint analysis, and predictive modeling. Dive into the data to uncover patterns and trends that drive strategic decisions.</li>
-              </ul>
-              &nbsp;8. Data Visualization
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Transform complex data sets into clear, actionable insights with intuitive visualization tools.</li>
-              </ul>
-              &nbsp;9. Custom Reporting
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Generate customized reports that highlight key insights and trends, tailored to your specific needs.</li>
-              </ul>
-              &nbsp;10. Scalability & Flexibility
-              <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                <li>Easily scale your research efforts and adapt to changing needs without compromising on quality or speed.</li>
-              </ul>
-            </p>
-            <p className="mb-4">
-              It&apos;s the &apos;Iron Man suit&apos; of market research. With one subscription you get access to ALL the tools you need. With an easy to use interface, you can rely on VisceralMR for fast, efficient, and impactful market research. Step into the future of market research with VisceralMR—where every challenge meets its match.
-            </p>
-          </div>
-        </div>
 
         <div className="bg-white py-16 sm:py-24">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
