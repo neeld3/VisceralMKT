@@ -187,31 +187,28 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-white">
-          <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+       <div className="bg-white py-16 sm:py-24">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:text-center">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Enterprise-Grade Security</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                The power to transform your research, with security that empowers your team.
-              </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                VisceralMR&apos;s advanced security measures ensure that your data remains confidential and secure. Built with enterprise-grade security standards, our platform gives you peace of mind while delivering powerful insights.
+              <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">And That&apos;s Not All</h1>
+              <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
+                An end-to-end suite that saves you time and makes you money.
               </p>
             </div>
-          </div>
-        </div>
-
-        <div className="bg-gray-50">
-          <div className="mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">Discover the VisceralMR Advantage</h2>
-            <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
-              {features.map((feature) => (
-                <div key={feature.name} className="p-6 border border-gray-200 rounded-lg bg-white">
-                  <feature.icon className="h-6 w-6 text-indigo-600" aria-hidden="true" />
-                  <h3 className="mt-8 text-lg font-semibold leading-8 text-gray-900">{feature.name}</h3>
-                  <p className="mt-4 text-base leading-7 text-gray-600">{feature.description}</p>
-                </div>
-              ))}
+            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                {features.map((feature) => (
+                  <div key={feature.name} className="flex flex-col">
+                    <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                      <feature.icon className="h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
+                      {feature.name}
+                    </dt>
+                    <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                      <p className="flex-auto">{feature.description}</p>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
             </div>
           </div>
         </div>
