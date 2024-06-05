@@ -42,7 +42,7 @@ export default function Home() {
                     &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
                   </h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
-                    &mdash; Kareem Lakani, Harvard Business School.
+                    &mdash; Kareem Lakani, Harvard Business School.<br/><br/>
                   </p>
                 </div>
                 <div className="w-2/5 mx-auto mt-5 mb-5">
@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
                 <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
                   <p>
-                    80% Faster. 80% Cheaper. Demonstrably Better.
+                    80% Faster. 80% Cheaper. Demonstrably Better.<br/><br/>
                   </p>
                 </div>
                 <div className="flex justify-center items-center">
