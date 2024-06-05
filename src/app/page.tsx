@@ -32,18 +32,6 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <defs>
-          <pattern
-            id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-            width={200}
-            height={200}
-            x="50%"
-            y={-1}
-            patternUnits="userSpaceOnUse"
-          >
-            <path d="M100 200V.5M.5 .5H200" fill="none" />
-          </pattern>
-        </defs>
         <div className="max-w-5xl mx-auto p-12">
           <h1 className="font-permanent-marker text-5xl text-custom-color font-bold text-center px-6 pt-12">
             Run Surveys Like Tony Stark<br /><br />
@@ -117,13 +105,13 @@ export default function Home() {
                       <strong className="text-xl font-bold">Challenges with Current Solutions</strong>
                     </p>
                     <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                      <li><strong className="font-semibold text-gray-900">Fragmented Tools & Processes:</strong> Managing multiple tools leads to inefficiencies and high costs.</li>
-                      <li><strong className="font-semibold text-gray-900">Lengthy Turnaround Times:</strong> Traditional methods delay actionable insights.</li>
-                      <li><strong className="font-semibold text-gray-900">Complex Learning Curves:</strong> Specialized software requires extensive training.</li>
-                      <li><strong className="font-semibold text-gray-900">Vendor Management:</strong> Managing vendors can be time-consuming and often involves project managers who don&apos;t fully understand your business needs.</li>
-                      <li><strong className="font-semibold text-gray-900">Data Quality & Integration:</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.</li>
-                      <li><strong className="font-semibold text-gray-900">Actionable Insights:</strong> Difficulty in turning raw data into actionable insights quickly.</li>
-                      <li><strong className="font-semibold text-gray-900">Scalability Issues:</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.</li>
+                      <li><className="font-semibold text-gray-900">Fragmented Tools & Processes </li>
+                      <li><className="font-semibold text-gray-900">Lengthy Turnaround Times</li>
+                      <li><className="font-semibold text-gray-900">Complex Learning Curves</li>
+                      <li><className="font-semibold text-gray-900">Vendor Management</li>
+                      <li><className="font-semibold text-gray-900">Data Quality & Integration</li>
+                      <li><className="font-semibold text-gray-900">Actionable Insights</li>
+                      <li><className="font-semibold text-gray-900">Scalability Issues</li>
                     </ul>
                     <p className="mb-4">
                       Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research.
