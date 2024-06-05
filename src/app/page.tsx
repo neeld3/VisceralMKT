@@ -66,7 +66,7 @@ export default function Home() {
                       alt="App screenshot"
                       width={744}
                       height={562}
-                      className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
+                      className="rounded-md shadow-full ring-1 ring-gray-900/10"
                     />
                   </div>
                 </div>
