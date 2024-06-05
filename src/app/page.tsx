@@ -32,53 +32,50 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <div className="bg-white">
-          <div className="relative isolate pt-14">
-           
-            <div className="py-24 sm:py-32 lg:pb-40">
-              <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-2xl text-center">
-                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                    &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
-                  </h1>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">
-                    &mdash; Kareem Lakani, Harvard Business School.
-                  </p>
-                </div>
-                <div className="w-2/5 mx-auto mt-5 mb-5">
-                  <Image
-                    src="/vmr-logo-black.png"
-                    alt="Logo"
-                    layout="responsive"
-                    width={2125}
-                    height={183}
-                    objectFit="cover"
-                  />
-                </div>
-                <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
-                  <p>
-                    80% Faster. 80% Cheaper. Demonstrably Better.
-                  </p>
-                </div>
-                <div className="flex justify-center items-center">
-                  <div className="border border-gray-900/10 rounded-xl overflow-hidden shadow-full">
-                    <img
-                      src="/chains.jpg"
-                      alt="App screenshot"
-                      width={744}
-                      height={562}
-                      className="rounded-md shadow-full ring-1 ring-gray-900/10"
-                    />
-                  </div>
-                </div>
+
+        <div className="bg-white relative isolate pt-14 py-24 sm:py-32 lg:pb-40">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
+              </h1>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                &mdash; Kareem Lakani, Harvard Business School.
+              </p>
+            </div>
+            <div className="w-2/5 mx-auto mt-5 mb-5">
+              <Image
+                src="/vmr-logo-black.png"
+                alt="Logo"
+                layout="responsive"
+                width={2125}
+                height={183}
+                objectFit="cover"
+              />
+            </div>
+            <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
+              <p>
+                80% Faster. 80% Cheaper. Demonstrably Better.
+              </p>
+            </div>
+            <div className="flex justify-center items-center">
+              <div className="border border-gray-900/10 rounded-xl overflow-hidden shadow-full">
+                <img
+                  src="/chains.jpg"
+                  alt="App screenshot"
+                  width={744}
+                  height={562}
+                  className="rounded-md shadow-full ring-1 ring-gray-900/10"
+                />
               </div>
             </div>
-          </div> 
+          </div>
         </div>
+
 
         <div className="bg-white px-6 py-32 lg:px-8">
           <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-            <p className="text-base font-semibold leading-7 text-indigo-600">Visceral Market Research</p>
+            <p className="text-base font-semibold leading-7 text-custom-color">Visceral Market Research</p>
             <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Your AI Insights Powerhouse</h1>
             <p className="mt-6 text-xl leading-8">
               Times are changing. No longer is it efficient or productive to spend hours doing complicated manual work. We all know market research is a key business practice for 
@@ -86,50 +83,48 @@ export default function Home() {
               that exists today. Visceral Market Research is that better way—a comprehensive, AI-driven platform that revolutionizes how you conduct research.
             </p>
             <div className="mt-10 max-w-2xl">
-              <p>
-                <strong>Current Issues:</strong>
-              </p>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Current Issues:</h2>
               <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Fragmented Tools & Process.</strong> 
+                    <strong className="font-semibold text-gray-900">Fragmented Tools & Process.</strong> Managing multiple tools leads to inefficiencies and high costs.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Lengthy Turnaround Times</strong> 
+                    <strong className="font-semibold text-gray-900">Lengthy Turnaround Times.</strong> Traditional methods delay actionable insights.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Complex Learning Curves</strong> 
+                    <strong className="font-semibold text-gray-900">Complex Learning Curves.</strong> Specialized software requires extensive training.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Time Consuming Vendor Management.</strong> 
+                    <strong className="font-semibold text-gray-900">Time Consuming Vendor Management.</strong> Managing vendors can be time-consuming and often involves project managers who don’t fully understand your business needs.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Cumbersome Data Quality & Integration.</strong> 
+                    <strong className="font-semibold text-gray-900">Cumbersome Data Quality & Integration.</strong> Ensuring data quality and integrating multiple data sources can be cumbersome and unreliable.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Slow Actionable Insighhts</strong> 
+                    <strong className="font-semibold text-gray-900">Slow Actionable Insights.</strong> Difficulty in turning raw data into actionable insights quickly. 
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <XCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Scalability Issues.</strong> 
+                    <strong className="font-semibold text-gray-900">Scalability Issues.</strong> Traditional solutions may not scale efficiently to handle large volumes of data or complex survey requirements.
                   </span>
                 </li>
               </ul>
