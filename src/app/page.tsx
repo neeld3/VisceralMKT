@@ -76,8 +76,8 @@ export default function Home() {
                     <img
                       src="/chains.jpg"
                       alt="App screenshot"
-                      width={912}
-                      height={684}
+                      width={744}
+                      height={562}
                       className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
                     />
                   </div>
