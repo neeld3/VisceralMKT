@@ -32,16 +32,14 @@ export default function Home() {
       </Head>
 
       <main className="">
-        <div className="py-24 sm:py-32 lg:pb-40">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                &lsquo;AI isn&apos;t going to put you out of business. Someone using AI will.&lsquo;
-              </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                &mdash; Kareem Lakani, Harvard Business School.
-              </p>
-            </div>
+        <div className="py-24 sm:py-32 lg:pb-40 mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              &mdash; Kareem Lakani, Harvard Business School.
+            </p>
           </div>
         </div>
         <div className="max-w-5xl mx-auto p-12">
