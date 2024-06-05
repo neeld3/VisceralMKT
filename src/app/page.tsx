@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { DocumentTextIcon, ChartBarIcon, BanknotesIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
 import { useState } from 'react'
+import { Dialog, DialogPanel } from '@headlessui/react'
 
 const features = [
   {
