@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Marketing Research Made Easy</title>
+        <title>Marketing Research Made Easy</title>,
         <meta name="description" content="A more streamlined way to meet your surveying needs." />
       </Head>
 
@@ -78,7 +78,7 @@ export default function Home() {
                       alt="App screenshot"
                       width={744}
                       height={562}
-                      className="rounded-md"
+                      className="rounded-md shadow-full ring-1 ring-gray-900/10"
                     />
                   </div>
                 </div>
