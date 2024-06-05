@@ -59,16 +59,14 @@ export default function Home() {
                     80% Faster. 80% Cheaper. Demonstrably Better.
                   </p>
                 </div>
-                <div className="mt-16 flow-root sm:mt-24">
-                  <div className="rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl">
-                    <img
-                      src="/chains.jpg"
-                      alt="App screenshot"
-                      width={744}
-                      height={562}
-                      className="rounded-md shadow-full ring-1 ring-gray-900/10"
-                    />
-                  </div>
+                <div className="border border-gray-900/10 rounded-xl p-2">
+                  <img
+                    src="/chains.jpg"
+                    alt="App screenshot"
+                    width={744}
+                    height={562}
+                    className="rounded-md shadow-full"
+                  />
                 </div>
               </div>
             </div>
