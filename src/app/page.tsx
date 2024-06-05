@@ -33,41 +33,39 @@ export default function Home() {
 
       <main className="">
 
-        <div className="bg-white relative isolate pt-14 py-24 sm:py-32 lg:pb-40">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
-              </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                &mdash; Kareem Lakani, Harvard Business School.
-              </p>
-            </div>
-            <div className="w-2/5 mx-auto mt-5 mb-5">
-              <Image
-                src="/vmr-logo-black.png"
-                alt="Logo"
-                layout="responsive"
-                width={2125}
-                height={183}
-                objectFit="cover"
+        <div className="mx-auto max-w-7xl px-6 bg-white relative isolate pt-14 py-24 sm:py-32 lg:pb-40 px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              &mdash; Kareem Lakani, Harvard Business School.
+            </p>
+          </div>
+          <div className="w-2/5 mx-auto mt-5 mb-5">
+            <Image
+              src="/vmr-logo-black.png"
+              alt="Logo"
+              layout="responsive"
+              width={2125}
+              height={183}
+              objectFit="cover"
+            />
+          </div>
+          <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
+            <p>
+              80% Faster. 80% Cheaper. Demonstrably Better.
+            </p>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="border border-gray-900/10 rounded-xl overflow-hidden shadow-full">
+              <img
+                src="/chains.jpg"
+                alt="App screenshot"
+                width={744}
+                height={562}
+                className="rounded-md shadow-full ring-1 ring-gray-900/10"
               />
-            </div>
-            <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
-              <p>
-                80% Faster. 80% Cheaper. Demonstrably Better.
-              </p>
-            </div>
-            <div className="flex justify-center items-center">
-              <div className="border border-gray-900/10 rounded-xl overflow-hidden shadow-full">
-                <img
-                  src="/chains.jpg"
-                  alt="App screenshot"
-                  width={744}
-                  height={562}
-                  className="rounded-md shadow-full ring-1 ring-gray-900/10"
-                />
-              </div>
             </div>
           </div>
         </div>
