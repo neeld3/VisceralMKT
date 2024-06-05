@@ -247,12 +247,11 @@ export default function Home() {
             Get Free Demo
           </a>
         </div>
-
         <a href="https://calendly.com/christian-e2w/visceral-intro?month=2024-06" className="inline-flex items-center font-permanent-marker fixed top-4 right-4 z-50 text-white bg-custom-color hover:bg-custom-color-dark focus:ring-custom-color-light font-medium rounded-full text-lg px-6 py-6 text-center shadow-lg transition-colors dark:bg-custom-color dark:hover:bg-custom-color-dark dark:focus:ring-custom-color-dark">
             <CursorArrowRaysIcon className="h-8 w-8 text-white mr-2" aria-hidden="true" />
-        Get Free Demo
-      </a>
-      <div
+              Get Free Demo
+        </a>
+        <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
         >
@@ -264,7 +263,6 @@ export default function Home() {
             }}
           />
         </div>
-      </div>
 
       </main>
     </>
