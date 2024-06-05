@@ -34,7 +34,7 @@ export default function Home() {
       <main className="">
         <div className="py-24 sm:py-32 lg:pb-40 mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl font-bold italic tracking-tight text-gray-900 sm:text-6xl">
               &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -61,7 +61,7 @@ export default function Home() {
           <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
             <div className="absolute inset-0 -z-10 overflow-hidden">
               <svg
-                className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+                className="absolute left-[max(80%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
                 aria-hidden="true"
               >
                 <svg x="50%" y={-1} className="overflow-visible fill-gray-50">
