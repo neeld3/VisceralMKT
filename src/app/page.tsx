@@ -42,7 +42,7 @@ export default function Home() {
                     &quot;AI isn&apos;t going to put you out of business. Someone using AI will.&quot;
                   </h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
-                    &mdash; Kareem Lakani, Harvard Business School.<br/><br/>
+                    &mdash; Kareem Lakani, Harvard Business School.
                   </p>
                 </div>
                 <div className="w-2/5 mx-auto mt-5 mb-5">
@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
                 <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
                   <p>
-                    80% Faster. 80% Cheaper. Demonstrably Better.<br/><br/>
+                    80% Faster. 80% Cheaper. Demonstrably Better.
                   </p>
                 </div>
                 <div className="flex justify-center items-center">
@@ -148,7 +148,7 @@ export default function Home() {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-cusotm-color" aria-hidden="true" />
+                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">Collaborative Workspace. </strong> Facilitates team collaboration 
                     on methodologies and survey development, media monitoring, industry/category updates, and report development.
@@ -171,83 +171,50 @@ export default function Home() {
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Efficient Panel Integration. </strong> Connect with panel sources more effectively, 
-                    ensuring demographic balancing and quota management. AI monitors and updates panels in real time.
+                    <strong className="font-semibold text-gray-900">Quantitative Research. </strong> Analyzes survey results in real-time, 
+                    applies advanced statistical techniques, and delivers visual insights.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Data Processing. </strong> Generate comprehensive data tables with standard outputs, 
-                    including stat testing, and more. Quickly synthesize and analyze large quantities of verbatims to identify themes and insights.
+                    <strong className="font-semibold text-gray-900">Automated Reporting & Dashboards. </strong> Auto-generates custom, actionable reports 
+                    for immediate use and supports business decisions.
                   </span>
-                </li>
-                <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
-                  <span>
-                    <strong className="font-semibold text-gray-900">Advanced Analytics. </strong> Unlock deeper insights with sophisticated 
-                    techniques like MaxDiff, factor analysis, correlations, conjoint analysis, and predictive modeling.
-                  </span>
-                </li>
-                <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
-                  <span>
-                    <strong className="font-semibold text-gray-900">Data Visualization. </strong> Transform complex data sets into clear, 
-                    actionable insights with intuitive visualization tools.
-                  </span>
-                </li>
-                <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
-                  <span>
-                    <strong className="font-semibold text-gray-900">Custom Reporting. </strong> Generate customized reports that highlight key 
-                    insights and trends, tailored to your specific needs.
-                  </span>
-                </li>
-                <li className="flex gap-x-3">
-                  <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
-                  <span>
-                    <strong className="font-semibold text-gray-900">Scalability & Flexibility. </strong> Easily scale your research efforts and 
-                    adapt to changing needs without compromising on quality or speed.
                 </li>
               </ul>
             </div>
-           
-            <div className="mt-16 max-w-2xl">
-              <h2 className="text-2xl font-bold tracking-tight text-gray-900">Get Ahead of the Competition</h2>
-              <p className="mt-6">
-                With one subscription you get access to ALL the tools you need. With an easy to use interface, you can rely on VisceralMR for fast, 
-                efficient, and impactful market research. Step into the future of market research with VisceralMR—where every challenge meets its match.
-              </p>
-            </div>
           </div>
         </div>
-        
-        <div className="bg-white py-16 sm:py-24">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+
+        <div className="bg-white">
+          <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
             <div className="mx-auto max-w-2xl lg:text-center">
-              <h1 className="font-permanent-marker text-custom-color text-3xl font-semibold text-center leading-7 pt-12">And That&apos;s Not All</h1>
-              <p className="mt-2 text-4xl font-bold tracking-tight sm:text-4xl">
-                An end-to-end suite that saves you time and makes you money.
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">Enterprise-Grade Security</h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                The power to transform your research, with security that empowers your team.
               </p>
-            </div>
-            <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-              <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                {features.map((feature) => (
-                  <div key={feature.name} className="flex flex-col">
-                    <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                      <feature.icon className="h-5 w-5 flex-none text-custom-color" aria-hidden="true" />
-                      {feature.name}
-                    </dt>
-                    <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                      <p className="flex-auto">{feature.description}</p>
-                    </dd>
-                  </div>
-                ))}
-              </dl>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                VisceralMR&apos;s advanced security measures ensure that your data remains confidential and secure. Built with enterprise-grade security standards, our platform gives you peace of mind while delivering powerful insights.
+              </p>
             </div>
           </div>
         </div>
-        
+
+        <div className="bg-gray-50">
+          <div className="mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
+            <h2 className="text-base font-semibold leading-7 text-indigo-600">Discover the VisceralMR Advantage</h2>
+            <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
+              {features.map((feature) => (
+                <div key={feature.name} className="p-6 border border-gray-200 rounded-lg bg-white">
+                  <feature.icon className="h-6 w-6 text-indigo-600" aria-hidden="true" />
+                  <h3 className="mt-8 text-lg font-semibold leading-8 text-gray-900">{feature.name}</h3>
+                  <p className="mt-4 text-base leading-7 text-gray-600">{feature.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );
