@@ -181,7 +181,7 @@ export default function Home() {
                   An end-to-end suite that saves you time and makes you money.
                 </p>
               </div>
-              <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+              <div className="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-none">
                 <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                   {features.map((feature) => (
                     <div key={feature.name} className="flex flex-col">
