@@ -52,7 +52,7 @@ export default function Home() {
               objectFit="cover"
             />
           </div>
-          <div className="mt-2 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
+          <div className="mt-2 mb-20 text-2xl text-center font-permanent-marker text-custom-color tracking-tight sm:text-4xl">
             <p>
               80% Faster. 80% Cheaper. Demonstrably Better.
             </p>
@@ -61,7 +61,7 @@ export default function Home() {
             <div className="border border-gray-900/10 rounded-xl overflow-hidden shadow-full">
               <img
                 src="/chains.jpg"
-                alt="App screenshot"
+                alt="Graphic"
                 width={744}
                 height={562}
                 className="rounded-md shadow-full ring-1 ring-gray-900/10"
@@ -69,8 +69,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-
         <div className="bg-white px-6 py-32 lg:px-8">
           <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
             <p className="text-base font-semibold leading-7 text-custom-color">Visceral Market Research</p>
