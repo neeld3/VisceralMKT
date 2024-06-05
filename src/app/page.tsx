@@ -104,14 +104,14 @@ export default function Home() {
                     <p className="mb-4">
                       <strong className="text-xl font-bold">Challenges with Current Solutions</strong>
                     </p>
-                    <ul className="list-disc text-lg font-medium list-inside ml-6 mb-4">
-                      <li><className="font-semibold text-gray-900">Fragmented Tools & Processes </li>
-                      <li><className="font-semibold text-gray-900">Lengthy Turnaround Times</li>
-                      <li><className="font-semibold text-gray-900">Complex Learning Curves</li>
-                      <li><className="font-semibold text-gray-900">Vendor Management</li>
-                      <li><className="font-semibold text-gray-900">Data Quality & Integration</li>
-                      <li><className="font-semibold text-gray-900">Actionable Insights</li>
-                      <li><className="font-semibold text-gray-900">Scalability Issues</li>
+                    <ul className="list-disc text-lg font-semibold text-gray-900 list-inside ml-6 mb-4">
+                      <li>Fragmented Tools & Processes </li>
+                      <li>Lengthy Turnaround Times</li>
+                      <li>Complex Learning Curves</li>
+                      <li>Vendor Management</li>
+                      <li>Data Quality & Integration</li>
+                      <li>Actionable Insights</li>
+                      <li>Scalability Issues</li>
                     </ul>
                     <p className="mb-4">
                       Like Jarvis to Tony Stark, Visceral AI is your intelligent partner, transforming the way you conduct market research.
